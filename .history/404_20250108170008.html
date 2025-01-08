@@ -1,0 +1,7 @@
+<script>
+  // Redirect to index.html with the original query parameters and hash
+  const redirectTo = "/ccims_test/index.html";
+  const query = window.location.search;
+  const hash = window.location.hash;
+  window.location.href = redirectTo + query + hash;
+</script>
