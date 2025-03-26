@@ -1,6 +1,6 @@
 {
-    "name": "node_connection_flutter",
-    "short_name": "node_connection_flutter",
+    "name": "chillwireless_flutter",
+    "short_name": "chillwireless_flutter",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
