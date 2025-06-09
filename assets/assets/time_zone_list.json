@@ -1,599 +1,4181 @@
-{
-    "inherit": "- Account/User default -",
-    "Africa/Abidjan": "Abidjan (Africa)",
-    "Africa/Accra": "Accra (Africa)",
-    "Brazil/Acre": "Acre (Brazil)",
-    "Australia/ACT": "ACT (Australia)",
-    "America/Adak": "Adak (America)",
-    "Africa/Addis_Ababa": "Addis Ababa (Africa)",
-    "Australia/Adelaide": "Adelaide (Australia)",
-    "Asia/Aden": "Aden (Asia)",
-    "US/Alaska": "Alaska (US)",
-    "US/Aleutian": "Aleutian (US)",
-    "Africa/Algiers": "Algiers (Africa)",
-    "Asia/Almaty": "Almaty (Asia)",
-    "Asia/Amman": "Amman (Asia)",
-    "Europe/Amsterdam": "Amsterdam (Europe)",
-    "Asia/Anadyr": "Anadyr (Asia)",
-    "America/Anchorage": "Anchorage (America)",
-    "Europe/Andorra": "Andorra (Europe)",
-    "America/Anguilla": "Anguilla (America)",
-    "Indian/Antananarivo": "Antananarivo (Indian)",
-    "America/Antigua": "Antigua (America)",
-    "Pacific/Apia": "Apia (Pacific)",
-    "Asia/Aqtau": "Aqtau (Asia)",
-    "Asia/Aqtobe": "Aqtobe (Asia)",
-    "America/Araguaina": "Araguaina (America)",
-    "US/Arizona": "Arizona (US)",
-    "America/Aruba": "Aruba (America)",
-    "Asia/Ashgabat": "Ashgabat (Asia)",
-    "Asia/Ashkhabad": "Ashkhabad (Asia)",
-    "Africa/Asmara": "Asmara (Africa)",
-    "Africa/Asmera": "Asmera (Africa)",
-    "Europe/Astrakhan": "Astrakhan (Europe)",
-    "America/Asuncion": "Asuncion (America)",
-    "Europe/Athens": "Athens (Europe)",
-    "America/Atikokan": "Atikokan (America)",
-    "America/Atka": "Atka (America)",
-    "Canada/Atlantic": "Atlantic (Canada)",
-    "Asia/Atyrau": "Atyrau (Asia)",
-    "Pacific/Auckland": "Auckland (Pacific)",
-    "Atlantic/Azores": "Azores (Atlantic)",
-    "Asia/Baghdad": "Baghdad (Asia)",
-    "America/Bahia": "Bahia (America)",
-    "America/Bahia_Banderas": "Bahia Banderas (America)",
-    "Asia/Bahrain": "Bahrain (Asia)",
-    "Mexico/BajaNorte": "BajaNorte (Mexico)",
-    "Mexico/BajaSur": "BajaSur (Mexico)",
-    "Asia/Baku": "Baku (Asia)",
-    "Africa/Bamako": "Bamako (Africa)",
-    "Asia/Bangkok": "Bangkok (Asia)",
-    "Africa/Bangui": "Bangui (Africa)",
-    "Africa/Banjul": "Banjul (Africa)",
-    "America/Barbados": "Barbados (America)",
-    "Asia/Barnaul": "Barnaul (Asia)",
-    "Asia/Beirut": "Beirut (Asia)",
-    "America/Belem": "Belem (America)",
-    "Europe/Belfast": "Belfast (Europe)",
-    "Europe/Belgrade": "Belgrade (Europe)",
-    "America/Belize": "Belize (America)",
-    "Europe/Berlin": "Berlin (Europe)",
-    "Atlantic/Bermuda": "Bermuda (Atlantic)",
-    "America/North_Dakota/Beulah": "Beulah (America/North Dakota)",
-    "Asia/Bishkek": "Bishkek (Asia)",
-    "Africa/Bissau": "Bissau (Africa)",
-    "America/Blanc-Sablon": "Blanc-Sablon (America)",
-    "Africa/Blantyre": "Blantyre (Africa)",
-    "America/Boa_Vista": "Boa Vista (America)",
-    "America/Bogota": "Bogota (America)",
-    "America/Boise": "Boise (America)",
-    "Pacific/Bougainville": "Bougainville (Pacific)",
-    "Europe/Bratislava": "Bratislava (Europe)",
-    "Africa/Brazzaville": "Brazzaville (Africa)",
-    "Australia/Brisbane": "Brisbane (Australia)",
-    "Australia/Broken_Hill": "Broken Hill (Australia)",
-    "Asia/Brunei": "Brunei (Asia)",
-    "Europe/Brussels": "Brussels (Europe)",
-    "Europe/Bucharest": "Bucharest (Europe)",
-    "Europe/Budapest": "Budapest (Europe)",
-    "America/Buenos_Aires": "Buenos Aires (America)",
-    "America/Argentina/Buenos_Aires": "Buenos Aires (America/Argentina)",
-    "Africa/Bujumbura": "Bujumbura (Africa)",
-    "Europe/Busingen": "Busingen (Europe)",
-    "Africa/Cairo": "Cairo (Africa)",
-    "Asia/Calcutta": "Calcutta (Asia)",
-    "America/Cambridge_Bay": "Cambridge Bay (America)",
-    "America/Campo_Grande": "Campo Grande (America)",
-    "Atlantic/Canary": "Canary (Atlantic)",
-    "Australia/Canberra": "Canberra (Australia)",
-    "America/Cancun": "Cancun (America)",
-    "Atlantic/Cape_Verde": "Cape Verde (Atlantic)",
-    "America/Caracas": "Caracas (America)",
-    "Africa/Casablanca": "Casablanca (Africa)",
-    "Antarctica/Casey": "Casey (Antarctica)",
-    "America/Catamarca": "Catamarca (America)",
-    "America/Argentina/Catamarca": "Catamarca (America/Argentina)",
-    "America/Cayenne": "Cayenne (America)",
-    "America/Cayman": "Cayman (America)",
-    "America/North_Dakota/Center": "Center (America/North Dakota)",
-    "Canada/Central": "Central (Canada)",
-    "US/Central": "Central (US)",
-    "CET": "CET",
-    "Africa/Ceuta": "Ceuta (Africa)",
-    "Indian/Chagos": "Chagos (Indian)",
-    "Pacific/Chatham": "Chatham (Pacific)",
-    "America/Chicago": "Chicago (America)",
-    "America/Chihuahua": "Chihuahua (America)",
-    "Europe/Chisinau": "Chisinau (Europe)",
-    "Asia/Chita": "Chita (Asia)",
-    "Asia/Choibalsan": "Choibalsan (Asia)",
-    "Asia/Chongqing": "Chongqing (Asia)",
-    "Indian/Christmas": "Christmas (Indian)",
-    "Asia/Chungking": "Chungking (Asia)",
-    "Pacific/Chuuk": "Chuuk (Pacific)",
-    "America/Ciudad_Juarez": "Ciudad Juarez (America)",
-    "Indian/Cocos": "Cocos (Indian)",
-    "Asia/Colombo": "Colombo (Asia)",
-    "America/Argentina/ComodRivadavia": "ComodRivadavia (America/Argentina)",
-    "Indian/Comoro": "Comoro (Indian)",
-    "Africa/Conakry": "Conakry (Africa)",
-    "Chile/Continental": "Continental (Chile)",
-    "Europe/Copenhagen": "Copenhagen (Europe)",
-    "America/Coral_Harbour": "Coral Harbour (America)",
-    "America/Cordoba": "Cordoba (America)",
-    "America/Argentina/Cordoba": "Cordoba (America/Argentina)",
-    "America/Costa_Rica": "Costa Rica (America)",
-    "America/Creston": "Creston (America)",
-    "CST6CDT": "CST6CDT",
-    "Cuba": "Cuba",
-    "America/Cuiaba": "Cuiaba (America)",
-    "America/Curacao": "Curacao (America)",
-    "Australia/Currie": "Currie (Australia)",
-    "Asia/Dacca": "Dacca (Asia)",
-    "Africa/Dakar": "Dakar (Africa)",
-    "Asia/Damascus": "Damascus (Asia)",
-    "America/Danmarkshavn": "Danmarkshavn (America)",
-    "Africa/Dar_es_Salaam": "Dar es Salaam (Africa)",
-    "Australia/Darwin": "Darwin (Australia)",
-    "Antarctica/Davis": "Davis (Antarctica)",
-    "America/Dawson": "Dawson (America)",
-    "America/Dawson_Creek": "Dawson Creek (America)",
-    "Brazil/DeNoronha": "DeNoronha (Brazil)",
-    "America/Denver": "Denver (America)",
-    "America/Detroit": "Detroit (America)",
-    "Asia/Dhaka": "Dhaka (Asia)",
-    "Asia/Dili": "Dili (Asia)",
-    "Africa/Djibouti": "Djibouti (Africa)",
-    "America/Dominica": "Dominica (America)",
-    "Africa/Douala": "Douala (Africa)",
-    "Asia/Dubai": "Dubai (Asia)",
-    "Europe/Dublin": "Dublin (Europe)",
-    "Antarctica/DumontDUrville": "DumontDUrville (Antarctica)",
-    "Asia/Dushanbe": "Dushanbe (Asia)",
-    "Brazil/East": "East (Brazil)",
-    "US/East-Indiana": "East-Indiana (US)",
-    "Pacific/Easter": "Easter (Pacific)",
-    "Chile/EasterIsland": "EasterIsland (Chile)",
-    "Canada/Eastern": "Eastern (Canada)",
-    "US/Eastern": "Eastern (US)",
-    "America/Edmonton": "Edmonton (America)",
-    "EET": "EET",
-    "Pacific/Efate": "Efate (Pacific)",
-    "Egypt": "Egypt",
-    "Eire": "Eire",
-    "America/Eirunepe": "Eirunepe (America)",
-    "Africa/El_Aaiun": "El Aaiun (Africa)",
-    "America/El_Salvador": "El Salvador (America)",
-    "Pacific/Enderbury": "Enderbury (Pacific)",
-    "America/Ensenada": "Ensenada (America)",
-    "EST": "EST",
-    "EST5EDT": "EST5EDT",
-    "Australia/Eucla": "Eucla (Australia)",
-    "Atlantic/Faeroe": "Faeroe (Atlantic)",
-    "Pacific/Fakaofo": "Fakaofo (Pacific)",
-    "Asia/Famagusta": "Famagusta (Asia)",
-    "Atlantic/Faroe": "Faroe (Atlantic)",
-    "Pacific/Fiji": "Fiji (Pacific)",
-    "America/Fort_Nelson": "Fort Nelson (America)",
-    "America/Fort_Wayne": "Fort Wayne (America)",
-    "America/Fortaleza": "Fortaleza (America)",
-    "Africa/Freetown": "Freetown (Africa)",
-    "Pacific/Funafuti": "Funafuti (Pacific)",
-    "Africa/Gaborone": "Gaborone (Africa)",
-    "Pacific/Galapagos": "Galapagos (Pacific)",
-    "Pacific/Gambier": "Gambier (Pacific)",
-    "Asia/Gaza": "Gaza (Asia)",
-    "GB": "GB",
-    "GB-Eire": "GB-Eire",
-    "Mexico/General": "General (Mexico)",
-    "Europe/Gibraltar": "Gibraltar (Europe)",
-    "America/Glace_Bay": "Glace Bay (America)",
-    "GMT": "GMT",
-    "Etc/GMT": "GMT (Etc)",
-    "GMT+0": "GMT+0",
-    "Etc/GMT+0": "GMT+0 (Etc)",
-    "Etc/GMT+1": "GMT+1 (Etc)",
-    "Etc/GMT+10": "GMT+10 (Etc)",
-    "Etc/GMT+11": "GMT+11 (Etc)",
-    "Etc/GMT+12": "GMT+12 (Etc)",
-    "Etc/GMT+2": "GMT+2 (Etc)",
-    "Etc/GMT+3": "GMT+3 (Etc)",
-    "Etc/GMT+4": "GMT+4 (Etc)",
-    "Etc/GMT+5": "GMT+5 (Etc)",
-    "Etc/GMT+6": "GMT+6 (Etc)",
-    "Etc/GMT+7": "GMT+7 (Etc)",
-    "Etc/GMT+8": "GMT+8 (Etc)",
-    "Etc/GMT+9": "GMT+9 (Etc)",
-    "GMT-0": "GMT-0",
-    "Etc/GMT-0": "GMT-0 (Etc)",
-    "Etc/GMT-1": "GMT-1 (Etc)",
-    "Etc/GMT-10": "GMT-10 (Etc)",
-    "Etc/GMT-11": "GMT-11 (Etc)",
-    "Etc/GMT-12": "GMT-12 (Etc)",
-    "Etc/GMT-13": "GMT-13 (Etc)",
-    "Etc/GMT-14": "GMT-14 (Etc)",
-    "Etc/GMT-2": "GMT-2 (Etc)",
-    "Etc/GMT-3": "GMT-3 (Etc)",
-    "Etc/GMT-4": "GMT-4 (Etc)",
-    "Etc/GMT-5": "GMT-5 (Etc)",
-    "Etc/GMT-6": "GMT-6 (Etc)",
-    "Etc/GMT-7": "GMT-7 (Etc)",
-    "Etc/GMT-8": "GMT-8 (Etc)",
-    "Etc/GMT-9": "GMT-9 (Etc)",
-    "GMT0": "GMT0",
-    "Etc/GMT0": "GMT0 (Etc)",
-    "America/Godthab": "Godthab (America)",
-    "America/Goose_Bay": "Goose Bay (America)",
-    "America/Grand_Turk": "Grand Turk (America)",
-    "Greenwich": "Greenwich",
-    "Etc/Greenwich": "Greenwich (Etc)",
-    "America/Grenada": "Grenada (America)",
-    "Pacific/Guadalcanal": "Guadalcanal (Pacific)",
-    "America/Guadeloupe": "Guadeloupe (America)",
-    "Pacific/Guam": "Guam (Pacific)",
-    "America/Guatemala": "Guatemala (America)",
-    "America/Guayaquil": "Guayaquil (America)",
-    "Europe/Guernsey": "Guernsey (Europe)",
-    "America/Guyana": "Guyana (America)",
-    "America/Halifax": "Halifax (America)",
-    "Africa/Harare": "Harare (Africa)",
-    "Asia/Harbin": "Harbin (Asia)",
-    "America/Havana": "Havana (America)",
-    "US/Hawaii": "Hawaii (US)",
-    "Asia/Hebron": "Hebron (Asia)",
-    "Europe/Helsinki": "Helsinki (Europe)",
-    "America/Hermosillo": "Hermosillo (America)",
-    "Asia/Ho_Chi_Minh": "Ho Chi Minh (Asia)",
-    "Australia/Hobart": "Hobart (Australia)",
-    "Asia/Hong_Kong": "Hong Kong (Asia)",
-    "Hongkong": "Hongkong",
-    "Pacific/Honolulu": "Honolulu (Pacific)",
-    "Asia/Hovd": "Hovd (Asia)",
-    "HST": "HST",
-    "Iceland": "Iceland",
-    "US/Indiana-Starke": "Indiana-Starke (US)",
-    "America/Indianapolis": "Indianapolis (America)",
-    "America/Indiana/Indianapolis": "Indianapolis (America/Indiana)",
-    "America/Inuvik": "Inuvik (America)",
-    "America/Iqaluit": "Iqaluit (America)",
-    "Iran": "Iran",
-    "Asia/Irkutsk": "Irkutsk (Asia)",
-    "Europe/Isle_of_Man": "Isle of Man (Europe)",
-    "Israel": "Israel",
-    "Asia/Istanbul": "Istanbul (Asia)",
-    "Europe/Istanbul": "Istanbul (Europe)",
-    "Asia/Jakarta": "Jakarta (Asia)",
-    "Jamaica": "Jamaica",
-    "America/Jamaica": "Jamaica (America)",
-    "Atlantic/Jan_Mayen": "Jan Mayen (Atlantic)",
-    "Japan": "Japan",
-    "Asia/Jayapura": "Jayapura (Asia)",
-    "Europe/Jersey": "Jersey (Europe)",
-    "Asia/Jerusalem": "Jerusalem (Asia)",
-    "Africa/Johannesburg": "Johannesburg (Africa)",
-    "Pacific/Johnston": "Johnston (Pacific)",
-    "Africa/Juba": "Juba (Africa)",
-    "America/Jujuy": "Jujuy (America)",
-    "America/Argentina/Jujuy": "Jujuy (America/Argentina)",
-    "America/Juneau": "Juneau (America)",
-    "Asia/Kabul": "Kabul (Asia)",
-    "Europe/Kaliningrad": "Kaliningrad (Europe)",
-    "Asia/Kamchatka": "Kamchatka (Asia)",
-    "Africa/Kampala": "Kampala (Africa)",
-    "Pacific/Kanton": "Kanton (Pacific)",
-    "Asia/Karachi": "Karachi (Asia)",
-    "Asia/Kashgar": "Kashgar (Asia)",
-    "Asia/Kathmandu": "Kathmandu (Asia)",
-    "Asia/Katmandu": "Katmandu (Asia)",
-    "Indian/Kerguelen": "Kerguelen (Indian)",
-    "Asia/Khandyga": "Khandyga (Asia)",
-    "Africa/Khartoum": "Khartoum (Africa)",
-    "Europe/Kiev": "Kiev (Europe)",
-    "Africa/Kigali": "Kigali (Africa)",
-    "Africa/Kinshasa": "Kinshasa (Africa)",
-    "Pacific/Kiritimati": "Kiritimati (Pacific)",
-    "Europe/Kirov": "Kirov (Europe)",
-    "America/Indiana/Knox": "Knox (America/Indiana)",
-    "America/Knox_IN": "Knox IN (America)",
-    "Asia/Kolkata": "Kolkata (Asia)",
-    "Pacific/Kosrae": "Kosrae (Pacific)",
-    "America/Kralendijk": "Kralendijk (America)",
-    "Asia/Krasnoyarsk": "Krasnoyarsk (Asia)",
-    "Asia/Kuala_Lumpur": "Kuala Lumpur (Asia)",
-    "Asia/Kuching": "Kuching (Asia)",
-    "Asia/Kuwait": "Kuwait (Asia)",
-    "Kwajalein": "Kwajalein",
-    "Pacific/Kwajalein": "Kwajalein (Pacific)",
-    "Europe/Kyiv": "Kyiv (Europe)",
-    "America/La_Paz": "La Paz (America)",
-    "America/Argentina/La_Rioja": "La Rioja (America/Argentina)",
-    "Africa/Lagos": "Lagos (Africa)",
-    "Australia/LHI": "LHI (Australia)",
-    "Africa/Libreville": "Libreville (Africa)",
-    "Libya": "Libya",
-    "America/Lima": "Lima (America)",
-    "Australia/Lindeman": "Lindeman (Australia)",
-    "Europe/Lisbon": "Lisbon (Europe)",
-    "Europe/Ljubljana": "Ljubljana (Europe)",
-    "Africa/Lome": "Lome (Africa)",
-    "Europe/London": "London (Europe)",
-    "Arctic/Longyearbyen": "Longyearbyen (Arctic)",
-    "Australia/Lord_Howe": "Lord Howe (Australia)",
-    "America/Los_Angeles": "Los Angeles (America)",
-    "America/Louisville": "Louisville (America)",
-    "America/Kentucky/Louisville": "Louisville (America/Kentucky)",
-    "America/Lower_Princes": "Lower Princes (America)",
-    "Africa/Luanda": "Luanda (Africa)",
-    "Africa/Lubumbashi": "Lubumbashi (Africa)",
-    "Africa/Lusaka": "Lusaka (Africa)",
-    "Europe/Luxembourg": "Luxembourg (Europe)",
-    "Asia/Macao": "Macao (Asia)",
-    "Asia/Macau": "Macau (Asia)",
-    "America/Maceio": "Maceio (America)",
-    "Antarctica/Macquarie": "Macquarie (Antarctica)",
-    "Atlantic/Madeira": "Madeira (Atlantic)",
-    "Europe/Madrid": "Madrid (Europe)",
-    "Asia/Magadan": "Magadan (Asia)",
-    "Indian/Mahe": "Mahe (Indian)",
-    "Pacific/Majuro": "Majuro (Pacific)",
-    "Asia/Makassar": "Makassar (Asia)",
-    "Africa/Malabo": "Malabo (Africa)",
-    "Indian/Maldives": "Maldives (Indian)",
-    "Europe/Malta": "Malta (Europe)",
-    "America/Managua": "Managua (America)",
-    "America/Manaus": "Manaus (America)",
-    "Asia/Manila": "Manila (Asia)",
-    "Africa/Maputo": "Maputo (Africa)",
-    "America/Indiana/Marengo": "Marengo (America/Indiana)",
-    "Europe/Mariehamn": "Mariehamn (Europe)",
-    "America/Marigot": "Marigot (America)",
-    "Pacific/Marquesas": "Marquesas (Pacific)",
-    "America/Martinique": "Martinique (America)",
-    "Africa/Maseru": "Maseru (Africa)",
-    "America/Matamoros": "Matamoros (America)",
-    "Indian/Mauritius": "Mauritius (Indian)",
-    "Antarctica/Mawson": "Mawson (Antarctica)",
-    "Indian/Mayotte": "Mayotte (Indian)",
-    "America/Mazatlan": "Mazatlan (America)",
-    "Africa/Mbabane": "Mbabane (Africa)",
-    "Antarctica/McMurdo": "McMurdo (Antarctica)",
-    "Australia/Melbourne": "Melbourne (Australia)",
-    "America/Mendoza": "Mendoza (America)",
-    "America/Argentina/Mendoza": "Mendoza (America/Argentina)",
-    "America/Menominee": "Menominee (America)",
-    "America/Merida": "Merida (America)",
-    "MET": "MET",
-    "America/Metlakatla": "Metlakatla (America)",
-    "America/Mexico_City": "Mexico City (America)",
-    "US/Michigan": "Michigan (US)",
-    "Pacific/Midway": "Midway (Pacific)",
-    "Europe/Minsk": "Minsk (Europe)",
-    "America/Miquelon": "Miquelon (America)",
-    "Africa/Mogadishu": "Mogadishu (Africa)",
-    "Europe/Monaco": "Monaco (Europe)",
-    "America/Moncton": "Moncton (America)",
-    "Africa/Monrovia": "Monrovia (Africa)",
-    "America/Monterrey": "Monterrey (America)",
-    "America/Montevideo": "Montevideo (America)",
-    "America/Kentucky/Monticello": "Monticello (America/Kentucky)",
-    "America/Montreal": "Montreal (America)",
-    "America/Montserrat": "Montserrat (America)",
-    "Europe/Moscow": "Moscow (Europe)",
-    "Canada/Mountain": "Mountain (Canada)",
-    "US/Mountain": "Mountain (US)",
-    "MST": "MST",
-    "MST7MDT": "MST7MDT",
-    "Asia/Muscat": "Muscat (Asia)",
-    "Africa/Nairobi": "Nairobi (Africa)",
-    "America/Nassau": "Nassau (America)",
-    "Pacific/Nauru": "Nauru (Pacific)",
-    "Navajo": "Navajo",
-    "Africa/Ndjamena": "Ndjamena (Africa)",
-    "America/North_Dakota/New_Salem": "New Salem (America/North Dakota)",
-    "America/New_York": "New York (America)",
-    "Canada/Newfoundland": "Newfoundland (Canada)",
-    "Africa/Niamey": "Niamey (Africa)",
-    "Asia/Nicosia": "Nicosia (Asia)",
-    "Europe/Nicosia": "Nicosia (Europe)",
-    "America/Nipigon": "Nipigon (America)",
-    "Pacific/Niue": "Niue (Pacific)",
-    "America/Nome": "Nome (America)",
-    "Pacific/Norfolk": "Norfolk (Pacific)",
-    "America/Noronha": "Noronha (America)",
-    "Australia/North": "North (Australia)",
-    "Africa/Nouakchott": "Nouakchott (Africa)",
-    "Pacific/Noumea": "Noumea (Pacific)",
-    "Asia/Novokuznetsk": "Novokuznetsk (Asia)",
-    "Asia/Novosibirsk": "Novosibirsk (Asia)",
-    "Australia/NSW": "NSW (Australia)",
-    "America/Nuuk": "Nuuk (America)",
-    "NZ": "NZ",
-    "NZ-CHAT": "NZ-CHAT",
-    "America/Ojinaga": "Ojinaga (America)",
-    "Asia/Omsk": "Omsk (Asia)",
-    "Asia/Oral": "Oral (Asia)",
-    "Europe/Oslo": "Oslo (Europe)",
-    "Africa/Ouagadougou": "Ouagadougou (Africa)",
-    "Canada/Pacific": "Pacific (Canada)",
-    "US/Pacific": "Pacific (US)",
-    "Pacific/Pago_Pago": "Pago Pago (Pacific)",
-    "Pacific/Palau": "Palau (Pacific)",
-    "Antarctica/Palmer": "Palmer (Antarctica)",
-    "America/Panama": "Panama (America)",
-    "America/Pangnirtung": "Pangnirtung (America)",
-    "America/Paramaribo": "Paramaribo (America)",
-    "Europe/Paris": "Paris (Europe)",
-    "Australia/Perth": "Perth (Australia)",
-    "America/Indiana/Petersburg": "Petersburg (America/Indiana)",
-    "Asia/Phnom_Penh": "Phnom Penh (Asia)",
-    "America/Phoenix": "Phoenix (America)",
-    "Pacific/Pitcairn": "Pitcairn (Pacific)",
-    "Europe/Podgorica": "Podgorica (Europe)",
-    "Pacific/Pohnpei": "Pohnpei (Pacific)",
-    "Poland": "Poland",
-    "Pacific/Ponape": "Ponape (Pacific)",
-    "Asia/Pontianak": "Pontianak (Asia)",
-    "Pacific/Port_Moresby": "Port Moresby (Pacific)",
-    "America/Port_of_Spain": "Port of Spain (America)",
-    "America/Port-au-Prince": "Port-au-Prince (America)",
-    "America/Porto_Acre": "Porto Acre (America)",
-    "America/Porto_Velho": "Porto Velho (America)",
-    "Africa/Porto-Novo": "Porto-Novo (Africa)",
-    "Portugal": "Portugal",
-    "Europe/Prague": "Prague (Europe)",
-    "PRC": "PRC",
-    "PST8PDT": "PST8PDT",
-    "America/Puerto_Rico": "Puerto Rico (America)",
-    "America/Punta_Arenas": "Punta Arenas (America)",
-    "Asia/Pyongyang": "Pyongyang (Asia)",
-    "Asia/Qatar": "Qatar (Asia)",
-    "Asia/Qostanay": "Qostanay (Asia)",
-    "Australia/Queensland": "Queensland (Australia)",
-    "Asia/Qyzylorda": "Qyzylorda (Asia)",
-    "America/Rainy_River": "Rainy River (America)",
-    "Asia/Rangoon": "Rangoon (Asia)",
-    "America/Rankin_Inlet": "Rankin Inlet (America)",
-    "Pacific/Rarotonga": "Rarotonga (Pacific)",
-    "America/Recife": "Recife (America)",
-    "America/Regina": "Regina (America)",
-    "America/Resolute": "Resolute (America)",
-    "Indian/Reunion": "Reunion (Indian)",
-    "Atlantic/Reykjavik": "Reykjavik (Atlantic)",
-    "Europe/Riga": "Riga (Europe)",
-    "America/Rio_Branco": "Rio Branco (America)",
-    "America/Argentina/Rio_Gallegos": "Rio Gallegos (America/Argentina)",
-    "Asia/Riyadh": "Riyadh (Asia)",
-    "ROC": "ROC",
-    "ROK": "ROK",
-    "Europe/Rome": "Rome (Europe)",
-    "America/Rosario": "Rosario (America)",
-    "Antarctica/Rothera": "Rothera (Antarctica)",
-    "Asia/Saigon": "Saigon (Asia)",
-    "Pacific/Saipan": "Saipan (Pacific)",
-    "Asia/Sakhalin": "Sakhalin (Asia)",
-    "America/Argentina/Salta": "Salta (America/Argentina)",
-    "Europe/Samara": "Samara (Europe)",
-    "Asia/Samarkand": "Samarkand (Asia)",
-    "Pacific/Samoa": "Samoa (Pacific)",
-    "US/Samoa": "Samoa (US)",
-    "America/Argentina/San_Juan": "San Juan (America/Argentina)",
-    "America/Argentina/San_Luis": "San Luis (America/Argentina)",
-    "Europe/San_Marino": "San Marino (Europe)",
-    "America/Santa_Isabel": "Santa Isabel (America)",
-    "America/Santarem": "Santarem (America)",
-    "America/Santiago": "Santiago (America)",
-    "America/Santo_Domingo": "Santo Domingo (America)",
-    "America/Sao_Paulo": "Sao Paulo (America)",
-    "Africa/Sao_Tome": "Sao Tome (Africa)",
-    "Europe/Sarajevo": "Sarajevo (Europe)",
-    "Europe/Saratov": "Saratov (Europe)",
-    "Canada/Saskatchewan": "Saskatchewan (Canada)",
-    "America/Scoresbysund": "Scoresbysund (America)",
-    "Asia/Seoul": "Seoul (Asia)",
-    "Asia/Shanghai": "Shanghai (Asia)",
-    "America/Shiprock": "Shiprock (America)",
-    "Europe/Simferopol": "Simferopol (Europe)",
-    "Singapore": "Singapore",
-    "Asia/Singapore": "Singapore (Asia)",
-    "America/Sitka": "Sitka (America)",
-    "Europe/Skopje": "Skopje (Europe)",
-    "Europe/Sofia": "Sofia (Europe)",
-    "Australia/South": "South (Australia)",
-    "Atlantic/South_Georgia": "South Georgia (Atlantic)",
-    "Antarctica/South_Pole": "South Pole (Antarctica)",
-    "Asia/Srednekolymsk": "Srednekolymsk (Asia)",
-    "America/St_Barthelemy": "St Barthelemy (America)",
-    "Atlantic/St_Helena": "St Helena (Atlantic)",
-    "America/St_Johns": "St Johns (America)",
-    "America/St_Kitts": "St Kitts (America)",
-    "America/St_Lucia": "St Lucia (America)",
-    "America/St_Thomas": "St Thomas (America)",
-    "America/St_Vincent": "St Vincent (America)",
-    "Atlantic/Stanley": "Stanley (Atlantic)",
-    "Europe/Stockholm": "Stockholm (Europe)",
-    "America/Swift_Current": "Swift Current (America)",
-    "Australia/Sydney": "Sydney (Australia)",
-    "Antarctica/Syowa": "Syowa (Antarctica)",
-    "Pacific/Tahiti": "Tahiti (Pacific)",
-    "Asia/Taipei": "Taipei (Asia)",
-    "Europe/Tallinn": "Tallinn (Europe)",
-    "Pacific/Tarawa": "Tarawa (Pacific)",
-    "Asia/Tashkent": "Tashkent (Asia)",
-    "Australia/Tasmania": "Tasmania (Australia)",
-    "Asia/Tbilisi": "Tbilisi (Asia)",
-    "America/Tegucigalpa": "Tegucigalpa (America)",
-    "Asia/Tehran": "Tehran (Asia)",
-    "Asia/Tel_Aviv": "Tel Aviv (Asia)",
-    "America/Indiana/Tell_City": "Tell City (America/Indiana)",
-    "Asia/Thimbu": "Thimbu (Asia)",
-    "Asia/Thimphu": "Thimphu (Asia)",
-    "America/Thule": "Thule (America)",
-    "America/Thunder_Bay": "Thunder Bay (America)",
-    "America/Tijuana": "Tijuana (America)",
-    "Africa/Timbuktu": "Timbuktu (Africa)",
-    "Europe/Tirane": "Tirane (Europe)",
-    "Europe/Tiraspol": "Tiraspol (Europe)",
-    "Asia/Tokyo": "Tokyo (Asia)",
-    "Asia/Tomsk": "Tomsk (Asia)",
-    "Pacific/Tongatapu": "Tongatapu (Pacific)",
-    "America/Toronto": "Toronto (America)",
-    "America/Tortola": "Tortola (America)",
-    "Africa/Tripoli": "Tripoli (Africa)",
-    "Antarctica/Troll": "Troll (Antarctica)",
-    "Pacific/Truk": "Truk (Pacific)",
-    "America/Argentina/Tucuman": "Tucuman (America/Argentina)",
-    "Africa/Tunis": "Tunis (Africa)",
-    "Turkey": "Turkey",
-    "UCT": "UCT",
-    "Etc/UCT": "UCT (Etc)",
-    "Asia/Ujung_Pandang": "Ujung Pandang (Asia)",
-    "Asia/Ulaanbaatar": "Ulaanbaatar (Asia)",
-    "Asia/Ulan_Bator": "Ulan Bator (Asia)",
-    "Europe/Ulyanovsk": "Ulyanovsk (Europe)",
-    "Universal": "Universal",
-    "Etc/Universal": "Universal (Etc)",
-    "Asia/Urumqi": "Urumqi (Asia)",
-    "America/Argentina/Ushuaia": "Ushuaia (America/Argentina)",
-    "Asia/Ust-Nera": "Ust-Nera (Asia)",
-    "UTC": "UTC",
-    "Etc/UTC": "UTC (Etc)",
-    "Europe/Uzhgorod": "Uzhgorod (Europe)",
-    "Europe/Vaduz": "Vaduz (Europe)",
-    "America/Vancouver": "Vancouver (America)",
-    "Europe/Vatican": "Vatican (Europe)",
-    "America/Indiana/Vevay": "Vevay (America/Indiana)",
-    "Australia/Victoria": "Victoria (Australia)",
-    "Europe/Vienna": "Vienna (Europe)",
-    "Asia/Vientiane": "Vientiane (Asia)",
-    "Europe/Vilnius": "Vilnius (Europe)",
-    "America/Indiana/Vincennes": "Vincennes (America/Indiana)",
-    "America/Virgin": "Virgin (America)",
-    "Asia/Vladivostok": "Vladivostok (Asia)",
-    "Europe/Volgograd": "Volgograd (Europe)",
-    "Antarctica/Vostok": "Vostok (Antarctica)",
-    "W-SU": "W-SU",
-    "Pacific/Wake": "Wake (Pacific)",
-    "Pacific/Wallis": "Wallis (Pacific)",
-    "Europe/Warsaw": "Warsaw (Europe)",
-    "Australia/West": "West (Australia)",
-    "Brazil/West": "West (Brazil)",
-    "WET": "WET",
-    "America/Whitehorse": "Whitehorse (America)",
-    "America/Indiana/Winamac": "Winamac (America/Indiana)",
-    "Africa/Windhoek": "Windhoek (Africa)",
-    "America/Winnipeg": "Winnipeg (America)",
-    "America/Yakutat": "Yakutat (America)",
-    "Asia/Yakutsk": "Yakutsk (Asia)",
-    "Australia/Yancowinna": "Yancowinna (Australia)",
-    "Asia/Yangon": "Yangon (Asia)",
-    "Pacific/Yap": "Yap (Pacific)",
-    "Asia/Yekaterinburg": "Yekaterinburg (Asia)",
-    "America/Yellowknife": "Yellowknife (America)",
-    "Asia/Yerevan": "Yerevan (Asia)",
-    "Canada/Yukon": "Yukon (Canada)",
-    "Europe/Zagreb": "Zagreb (Europe)",
-    "Europe/Zaporozhye": "Zaporozhye (Europe)",
-    "Zulu": "Zulu",
-    "Etc/Zulu": "Zulu (Etc)",
-    "Europe/Zurich": "Zurich (Europe)"
-}
+[
+  {
+    "timeZoneKey": "inherit",
+    "timeZoneDisplay": "- Account/User default -",
+    "standard_utc_offset": "+00:00",
+    "utc_offset": "+00:00",
+    "notes": "Inherits account/user default; falls back to UTC if undefined"
+  },
+  {
+    "timeZoneKey": "Africa/Abidjan",
+    "timeZoneDisplay": "Abidjan (Africa)",
+    "standard_utc_offset": "+00:00",
+    "utc_offset": "+00:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Africa/Accra",
+    "timeZoneDisplay": "Accra (Africa)",
+    "standard_utc_offset": "+00:00",
+    "utc_offset": "+00:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Brazil/Acre",
+    "timeZoneDisplay": "Acre (Brazil)",
+    "standard_utc_offset": "-05:00",
+    "utc_offset": "-05:00",
+    "notes": "No DST, maps to America/Rio_Branco"
+  },
+  {
+    "timeZoneKey": "Australia/ACT",
+    "timeZoneDisplay": "ACT (Australia)",
+    "standard_utc_offset": "+10:00",
+    "utc_offset": "+10:00",
+    "notes": "DST may apply (+11:00, typically October-April), maps to Australia/Sydney"
+  },
+  {
+    "timeZoneKey": "America/Adak",
+    "timeZoneDisplay": "Adak (America)",
+    "standard_utc_offset": "-10:00",
+    "utc_offset": "-09:00",
+    "notes": "DST active (-09:00, March-November)"
+  },
+  {
+    "timeZoneKey": "Africa/Addis_Ababa",
+    "timeZoneDisplay": "Addis Ababa (Africa)",
+    "standard_utc_offset": "+03:00",
+    "utc_offset": "+03:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Australia/Adelaide",
+    "timeZoneDisplay": "Adelaide (Australia)",
+    "standard_utc_offset": "+09:30",
+    "utc_offset": "+09:30",
+    "notes": "DST may apply (+10:30, typically October-April)"
+  },
+  {
+    "timeZoneKey": "Asia/Aden",
+    "timeZoneDisplay": "Aden (Asia)",
+    "standard_utc_offset": "+03:00",
+    "utc_offset": "+03:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "US/Alaska",
+    "timeZoneDisplay": "Alaska (US)",
+    "standard_utc_offset": "-09:00",
+    "utc_offset": "-08:00",
+    "notes": "DST active (-08:00, March-November), maps to America/Anchorage"
+  },
+  {
+    "timeZoneKey": "US/Aleutian",
+    "timeZoneDisplay": "Aleutian (US)",
+    "standard_utc_offset": "-10:00",
+    "utc_offset": "-09:00",
+    "notes": "DST active (-09:00, March-November), maps to America/Adak"
+  },
+  {
+    "timeZoneKey": "Africa/Algiers",
+    "timeZoneDisplay": "Algiers (Africa)",
+    "standard_utc_offset": "+01:00",
+    "utc_offset": "+01:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Asia/Almaty",
+    "timeZoneDisplay": "Almaty (Asia)",
+    "standard_utc_offset": "+05:00",
+    "utc_offset": "+05:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Asia/Amman",
+    "timeZoneDisplay": "Amman (Asia)",
+    "standard_utc_offset": "+03:00",
+    "utc_offset": "+03:00",
+    "notes": "DST may apply (+04:00, typically March-October)"
+  },
+  {
+    "timeZoneKey": "Europe/Amsterdam",
+    "timeZoneDisplay": "Amsterdam (Europe)",
+    "standard_utc_offset": "+01:00",
+    "utc_offset": "+02:00",
+    "notes": "DST active (+02:00, March-October)"
+  },
+  {
+    "timeZoneKey": "Asia/Anadyr",
+    "timeZoneDisplay": "Anadyr (Asia)",
+    "standard_utc_offset": "+12:00",
+    "utc_offset": "+12:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Anchorage",
+    "timeZoneDisplay": "Anchorage (America)",
+    "standard_utc_offset": "-09:00",
+    "utc_offset": "-08:00",
+    "notes": "DST active (-08:00, March-November)"
+  },
+  {
+    "timeZoneKey": "Europe/Andorra",
+    "timeZoneDisplay": "Andorra (Europe)",
+    "standard_utc_offset": "+01:00",
+    "utc_offset": "+02:00",
+    "notes": "DST active (+02:00, March-October)"
+  },
+  {
+    "timeZoneKey": "America/Anguilla",
+    "timeZoneDisplay": "Anguilla (America)",
+    "standard_utc_offset": "-04:00",
+    "utc_offset": "-04:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Indian/Antananarivo",
+    "timeZoneDisplay": "Antananarivo (Indian)",
+    "standard_utc_offset": "+03:00",
+    "utc_offset": "+03:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Antigua",
+    "timeZoneDisplay": "Antigua (America)",
+    "standard_utc_offset": "-04:00",
+    "utc_offset": "-04:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Pacific/Apia",
+    "timeZoneDisplay": "Apia (Pacific)",
+    "standard_utc_offset": "+13:00",
+    "utc_offset": "+13:00",
+    "notes": "DST may apply (+14:00, typically September-April)"
+  },
+  {
+    "timeZoneKey": "Asia/Aqtau",
+    "timeZoneDisplay": "Aqtau (Asia)",
+    "standard_utc_offset": "+05:00",
+    "utc_offset": "+05:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Asia/Aqtobe",
+    "timeZoneDisplay": "Aqtobe (Asia)",
+    "standard_utc_offset": "+05:00",
+    "utc_offset": "+05:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Araguaina",
+    "timeZoneDisplay": "Araguaina (America)",
+    "standard_utc_offset": "-03:00",
+    "utc_offset": "-03:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "US/Arizona",
+    "timeZoneDisplay": "Arizona (US)",
+    "standard_utc_offset": "-07:00",
+    "utc_offset": "-07:00",
+    "notes": "No DST, maps to America/Phoenix"
+  },
+  {
+    "timeZoneKey": "America/Aruba",
+    "timeZoneDisplay": "Aruba (America)",
+    "standard_utc_offset": "-04:00",
+    "utc_offset": "-04:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Asia/Ashgabat",
+    "timeZoneDisplay": "Ashgabat (Asia)",
+    "standard_utc_offset": "+05:00",
+    "utc_offset": "+05:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Asia/Ashkhabad",
+    "timeZoneDisplay": "Ashkhabad (Asia)",
+    "standard_utc_offset": "+05:00",
+    "utc_offset": "+05:00",
+    "notes": "No DST, alias for Ashgabat"
+  },
+  {
+    "timeZoneKey": "Africa/Asmara",
+    "timeZoneDisplay": "Asmara (Africa)",
+    "standard_utc_offset": "+03:00",
+    "utc_offset": "+03:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Africa/Asmera",
+    "timeZoneDisplay": "Asmera (Africa)",
+    "standard_utc_offset": "+03:00",
+    "utc_offset": "+03:00",
+    "notes": "No DST, alias for Asmara"
+  },
+  {
+    "timeZoneKey": "Europe/Astrakhan",
+    "timeZoneDisplay": "Astrakhan (Europe)",
+    "standard_utc_offset": "+04:00",
+    "utc_offset": "+04:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Asuncion",
+    "timeZoneDisplay": "Asuncion (America)",
+    "standard_utc_offset": "-04:00",
+    "utc_offset": "-04:00",
+    "notes": "DST may apply (-03:00, typically October-March)"
+  },
+  {
+    "timeZoneKey": "Europe/Athens",
+    "timeZoneDisplay": "Athens (Europe)",
+    "standard_utc_offset": "+02:00",
+    "utc_offset": "+03:00",
+    "notes": "DST active (+03:00, March-October)"
+  },
+  {
+    "timeZoneKey": "America/Atikokan",
+    "timeZoneDisplay": "Atikokan (America)",
+    "standard_utc_offset": "-05:00",
+    "utc_offset": "-05:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Atka",
+    "timeZoneDisplay": "Atka (America)",
+    "standard_utc_offset": "-10:00",
+    "utc_offset": "-09:00",
+    "notes": "DST active (-09:00, March-November), alias for America/Adak"
+  },
+  {
+    "timeZoneKey": "Canada/Atlantic",
+    "timeZoneDisplay": "Atlantic (Canada)",
+    "standard_utc_offset": "-04:00",
+    "utc_offset": "-03:00",
+    "notes": "DST active (-03:00, March-November), maps to America/Halifax"
+  },
+  {
+    "timeZoneKey": "Asia/Atyrau",
+    "timeZoneDisplay": "Atyrau (Asia)",
+    "standard_utc_offset": "+05:00",
+    "utc_offset": "+05:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Pacific/Auckland",
+    "timeZoneDisplay": "Auckland (Pacific)",
+    "standard_utc_offset": "+12:00",
+    "utc_offset": "+12:00",
+    "notes": "DST may apply (+13:00, typically September-April)"
+  },
+  {
+    "timeZoneKey": "Atlantic/Azores",
+    "timeZoneDisplay": "Azores (Atlantic)",
+    "standard_utc_offset": "-01:00",
+    "utc_offset": "+00:00",
+    "notes": "DST active (+00:00, March-October)"
+  },
+  {
+    "timeZoneKey": "Asia/Baghdad",
+    "timeZoneDisplay": "Baghdad (Asia)",
+    "standard_utc_offset": "+03:00",
+    "utc_offset": "+03:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Bahia",
+    "timeZoneDisplay": "Bahia (America)",
+    "standard_utc_offset": "-03:00",
+    "utc_offset": "-03:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Bahia_Banderas",
+    "timeZoneDisplay": "Bahia Banderas (America)",
+    "standard_utc_offset": "-06:00",
+    "utc_offset": "-06:00",
+    "notes": "DST may apply (-05:00, typically April-October)"
+  },
+  {
+    "timeZoneKey": "Asia/Bahrain",
+    "timeZoneDisplay": "Bahrain (Asia)",
+    "standard_utc_offset": "+03:00",
+    "utc_offset": "+03:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Mexico/BajaNorte",
+    "timeZoneDisplay": "BajaNorte (Mexico)",
+    "standard_utc_offset": "-08:00",
+    "utc_offset": "-07:00",
+    "notes": "DST active (-07:00, March-November), maps to America/Tijuana"
+  },
+  {
+    "timeZoneKey": "Mexico/BajaSur",
+    "timeZoneDisplay": "BajaSur (Mexico)",
+    "standard_utc_offset": "-07:00",
+    "utc_offset": "-07:00",
+    "notes": "No DST, maps to America/Mazatlan"
+  },
+  {
+    "timeZoneKey": "Asia/Baku",
+    "timeZoneDisplay": "Baku (Asia)",
+    "standard_utc_offset": "+04:00",
+    "utc_offset": "+04:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Africa/Bamako",
+    "timeZoneDisplay": "Bamako (Africa)",
+    "standard_utc_offset": "+00:00",
+    "utc_offset": "+00:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Asia/Bangkok",
+    "timeZoneDisplay": "Bangkok (Asia)",
+    "standard_utc_offset": "+07:00",
+    "utc_offset": "+07:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Africa/Bangui",
+    "timeZoneDisplay": "Bangui (Africa)",
+    "standard_utc_offset": "+01:00",
+    "utc_offset": "+01:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Africa/Banjul",
+    "timeZoneDisplay": "Banjul (Africa)",
+    "standard_utc_offset": "+00:00",
+    "utc_offset": "+00:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Barbados",
+    "timeZoneDisplay": "Barbados (America)",
+    "standard_utc_offset": "-04:00",
+    "utc_offset": "-04:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Asia/Barnaul",
+    "timeZoneDisplay": "Barnaul (Asia)",
+    "standard_utc_offset": "+07:00",
+    "utc_offset": "+07:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Asia/Beirut",
+    "timeZoneDisplay": "Beirut (Asia)",
+    "standard_utc_offset": "+02:00",
+    "utc_offset": "+03:00",
+    "notes": "DST active (+03:00, March-October)"
+  },
+  {
+    "timeZoneKey": "America/Belem",
+    "timeZoneDisplay": "Belem (America)",
+    "standard_utc_offset": "-03:00",
+    "utc_offset": "-03:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Europe/Belfast",
+    "timeZoneDisplay": "Belfast (Europe)",
+    "standard_utc_offset": "+00:00",
+    "utc_offset": "+01:00",
+    "notes": "DST active (+01:00, March-October), alias for Europe/London"
+  },
+  {
+    "timeZoneKey": "Europe/Belgrade",
+    "timeZoneDisplay": "Belgrade (Europe)",
+    "standard_utc_offset": "+01:00",
+    "utc_offset": "+02:00",
+    "notes": "DST active (+02:00, March-October)"
+  },
+  {
+    "timeZoneKey": "America/Belize",
+    "timeZoneDisplay": "Belize (America)",
+    "standard_utc_offset": "-06:00",
+    "utc_offset": "-06:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Europe/Berlin",
+    "timeZoneDisplay": "Berlin (Europe)",
+    "standard_utc_offset": "+01:00",
+    "utc_offset": "+02:00",
+    "notes": "DST active (+02:00, March-October)"
+  },
+  {
+    "timeZoneKey": "Atlantic/Bermuda",
+    "timeZoneDisplay": "Bermuda (Atlantic)",
+    "standard_utc_offset": "-04:00",
+    "utc_offset": "-03:00",
+    "notes": "DST active (-03:00, March-November)"
+  },
+  {
+    "timeZoneKey": "America/North_Dakota/Beulah",
+    "timeZoneDisplay": "Beulah (America/North Dakota)",
+    "standard_utc_offset": "-06:00",
+    "utc_offset": "-05:00",
+    "notes": "DST active (-05:00, March-November)"
+  },
+  {
+    "timeZoneKey": "Asia/Bishkek",
+    "timeZoneDisplay": "Bishkek (Asia)",
+    "standard_utc_offset": "+06:00",
+    "utc_offset": "+06:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Africa/Bissau",
+    "timeZoneDisplay": "Bissau (Africa)",
+    "standard_utc_offset": "+00:00",
+    "utc_offset": "+00:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Blanc-Sablon",
+    "timeZoneDisplay": "Blanc-Sablon (America)",
+    "standard_utc_offset": "-04:00",
+    "utc_offset": "-04:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Africa/Blantyre",
+    "timeZoneDisplay": "Blantyre (Africa)",
+    "standard_utc_offset": "+02:00",
+    "utc_offset": "+02:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Boa_Vista",
+    "timeZoneDisplay": "Boa Vista (America)",
+    "standard_utc_offset": "-04:00",
+    "utc_offset": "-04:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Bogota",
+    "timeZoneDisplay": "Bogota (America)",
+    "standard_utc_offset": "-05:00",
+    "utc_offset": "-05:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Boise",
+    "timeZoneDisplay": "Boise (America)",
+    "standard_utc_offset": "-07:00",
+    "utc_offset": "-06:00",
+    "notes": "DST active (-06:00, March-November)"
+  },
+  {
+    "timeZoneKey": "Pacific/Bougainville",
+    "timeZoneDisplay": "Bougainville (Pacific)",
+    "standard_utc_offset": "+11:00",
+    "utc_offset": "+11:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Europe/Bratislava",
+    "timeZoneDisplay": "Bratislava (Europe)",
+    "standard_utc_offset": "+01:00",
+    "utc_offset": "+02:00",
+    "notes": "DST active (+02:00, March-October)"
+  },
+  {
+    "timeZoneKey": "Africa/Brazzaville",
+    "timeZoneDisplay": "Brazzaville (Africa)",
+    "standard_utc_offset": "+01:00",
+    "utc_offset": "+01:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Australia/Brisbane",
+    "timeZoneDisplay": "Brisbane (Australia)",
+    "standard_utc_offset": "+10:00",
+    "utc_offset": "+10:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Australia/Broken_Hill",
+    "timeZoneDisplay": "Broken Hill (Australia)",
+    "standard_utc_offset": "+09:30",
+    "utc_offset": "+09:30",
+    "notes": "DST may apply (+10:30, typically October-April)"
+  },
+  {
+    "timeZoneKey": "Asia/Brunei",
+    "timeZoneDisplay": "Brunei (Asia)",
+    "standard_utc_offset": "+08:00",
+    "utc_offset": "+08:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Europe/Brussels",
+    "timeZoneDisplay": "Brussels (Europe)",
+    "standard_utc_offset": "+01:00",
+    "utc_offset": "+02:00",
+    "notes": "DST active (+02:00, March-October)"
+  },
+  {
+    "timeZoneKey": "Europe/Bucharest",
+    "timeZoneDisplay": "Bucharest (Europe)",
+    "standard_utc_offset": "+02:00",
+    "utc_offset": "+03:00",
+    "notes": "DST active (+03:00, March-October)"
+  },
+  {
+    "timeZoneKey": "Europe/Budapest",
+    "timeZoneDisplay": "Budapest (Europe)",
+    "standard_utc_offset": "+01:00",
+    "utc_offset": "+02:00",
+    "notes": "DST active (+02:00, March-October)"
+  },
+  {
+    "timeZoneKey": "America/Buenos_Aires",
+    "timeZoneDisplay": "Buenos Aires (America)",
+    "standard_utc_offset": "-03:00",
+    "utc_offset": "-03:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Argentina/Buenos_Aires",
+    "timeZoneDisplay": "Buenos Aires (America/Argentina)",
+    "standard_utc_offset": "-03:00",
+    "utc_offset": "-03:00",
+    "notes": "No DST, alias for America/Buenos_Aires"
+  },
+  {
+    "timeZoneKey": "Africa/Bujumbura",
+    "timeZoneDisplay": "Bujumbura (Africa)",
+    "standard_utc_offset": "+02:00",
+    "utc_offset": "+02:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Europe/Busingen",
+    "timeZoneDisplay": "Busingen (Europe)",
+    "standard_utc_offset": "+01:00",
+    "utc_offset": "+02:00",
+    "notes": "DST active (+02:00, March-October), alias for Europe/Zurich"
+  },
+  {
+    "timeZoneKey": "Africa/Cairo",
+    "timeZoneDisplay": "Cairo (Africa)",
+    "standard_utc_offset": "+02:00",
+    "utc_offset": "+03:00",
+    "notes": "DST active (+03:00, April-October)"
+  },
+  {
+    "timeZoneKey": "Asia/Calcutta",
+    "timeZoneDisplay": "Calcutta (Asia)",
+    "standard_utc_offset": "+05:30",
+    "utc_offset": "+05:30",
+    "notes": "No DST, alias for Asia/Kolkata"
+  },
+  {
+    "timeZoneKey": "America/Cambridge_Bay",
+    "timeZoneDisplay": "Cambridge Bay (America)",
+    "standard_utc_offset": "-07:00",
+    "utc_offset": "-06:00",
+    "notes": "DST active (-06:00, March-November)"
+  },
+  {
+    "timeZoneKey": "America/Campo_Grande",
+    "timeZoneDisplay": "Campo Grande (America)",
+    "standard_utc_offset": "-04:00",
+    "utc_offset": "-04:00",
+    "notes": "DST may apply (-03:00, typically November-March)"
+  },
+  {
+    "timeZoneKey": "Atlantic/Canary",
+    "timeZoneDisplay": "Canary (Atlantic)",
+    "standard_utc_offset": "+00:00",
+    "utc_offset": "+01:00",
+    "notes": "DST active (+01:00, March-October)"
+  },
+  {
+    "timeZoneKey": "Australia/Canberra",
+    "timeZoneDisplay": "Canberra (Australia)",
+    "standard_utc_offset": "+10:00",
+    "utc_offset": "+10:00",
+    "notes": "DST may apply (+11:00, typically October-April), alias for Australia/Sydney"
+  },
+  {
+    "timeZoneKey": "America/Cancun",
+    "timeZoneDisplay": "Cancun (America)",
+    "standard_utc_offset": "-05:00",
+    "utc_offset": "-05:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Atlantic/Cape_Verde",
+    "timeZoneDisplay": "Cape Verde (Atlantic)",
+    "standard_utc_offset": "-01:00",
+    "utc_offset": "-01:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Caracas",
+    "timeZoneDisplay": "Caracas (America)",
+    "standard_utc_offset": "-04:00",
+    "utc_offset": "-04:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Africa/Casablanca",
+    "timeZoneDisplay": "Casablanca (Africa)",
+    "standard_utc_offset": "+01:00",
+    "utc_offset": "+01:00",
+    "notes": "DST may apply (+00:00, typically April-October)"
+  },
+  {
+    "timeZoneKey": "Antarctica/Casey",
+    "timeZoneDisplay": "Casey (Antarctica)",
+    "standard_utc_offset": "+11:00",
+    "utc_offset": "+11:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Catamarca",
+    "timeZoneDisplay": "Catamarca (America)",
+    "standard_utc_offset": "-03:00",
+    "utc_offset": "-03:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Argentina/Catamarca",
+    "timeZoneDisplay": "Catamarca (America/Argentina)",
+    "standard_utc_offset": "-03:00",
+    "utc_offset": "-03:00",
+    "notes": "No DST, alias for America/Catamarca"
+  },
+  {
+    "timeZoneKey": "America/Cayenne",
+    "timeZoneDisplay": "Cayenne (America)",
+    "standard_utc_offset": "-03:00",
+    "utc_offset": "-03:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Cayman",
+    "timeZoneDisplay": "Cayman (America)",
+    "standard_utc_offset": "-05:00",
+    "utc_offset": "-05:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/North_Dakota/Center",
+    "timeZoneDisplay": "Center (America/North Dakota)",
+    "standard_utc_offset": "-06:00",
+    "utc_offset": "-05:00",
+    "notes": "DST active (-05:00, March-November)"
+  },
+  {
+    "timeZoneKey": "Canada/Central",
+    "timeZoneDisplay": "Central (Canada)",
+    "standard_utc_offset": "-06:00",
+    "utc_offset": "-05:00",
+    "notes": "DST active (-05:00, March-November), maps to America/Winnipeg"
+  },
+  {
+    "timeZoneKey": "US/Central",
+    "timeZoneDisplay": "Central (US)",
+    "standard_utc_offset": "-06:00",
+    "utc_offset": "-05:00",
+    "notes": "DST active (-05:00, March-November), maps to America/Chicago"
+  },
+  {
+    "timeZoneKey": "CET",
+    "timeZoneDisplay": "CET",
+    "standard_utc_offset": "+01:00",
+    "utc_offset": "+02:00",
+    "notes": "DST active (+02:00, March-October), maps to Europe/Paris"
+  },
+  {
+    "timeZoneKey": "Africa/Ceuta",
+    "timeZoneDisplay": "Ceuta (Africa)",
+    "standard_utc_offset": "+01:00",
+    "utc_offset": "+02:00",
+    "notes": "DST active (+02:00, March-October)"
+  },
+  {
+    "timeZoneKey": "Indian/Chagos",
+    "timeZoneDisplay": "Chagos (Indian)",
+    "standard_utc_offset": "+06:00",
+    "utc_offset": "+06:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Pacific/Chatham",
+    "timeZoneDisplay": "Chatham (Pacific)",
+    "standard_utc_offset": "+12:45",
+    "utc_offset": "+12:45",
+    "notes": "DST may apply (+13:45, typically September-April)"
+  },
+  {
+    "timeZoneKey": "America/Chicago",
+    "timeZoneDisplay": "Chicago (America)",
+    "standard_utc_offset": "-06:00",
+    "utc_offset": "-05:00",
+    "notes": "DST active (-05:00, March-November)"
+  },
+  {
+    "timeZoneKey": "America/Chihuahua",
+    "timeZoneDisplay": "Chihuahua (America)",
+    "standard_utc_offset": "-06:00",
+    "utc_offset": "-06:00",
+    "notes": "DST may apply (-05:00, typically April-October)"
+  },
+  {
+    "timeZoneKey": "Europe/Chisinau",
+    "timeZoneDisplay": "Chisinau (Europe)",
+    "standard_utc_offset": "+02:00",
+    "utc_offset": "+03:00",
+    "notes": "DST active (+03:00, March-October)"
+  },
+  {
+    "timeZoneKey": "Asia/Chita",
+    "timeZoneDisplay": "Chita (Asia)",
+    "standard_utc_offset": "+09:00",
+    "utc_offset": "+09:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Asia/Choibalsan",
+    "timeZoneDisplay": "Choibalsan (Asia)",
+    "standard_utc_offset": "+08:00",
+    "utc_offset": "+08:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Asia/Chongqing",
+    "timeZoneDisplay": "Chongqing (Asia)",
+    "standard_utc_offset": "+08:00",
+    "utc_offset": "+08:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Christmas (Indian)",
+    "timeZoneDisplay": "Christmas (Indian)",
+    "standard_utc_offset": "+07:00",
+    "utc_offset": "+07:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Asia/Chungking",
+    "timeZoneDisplay": "Chungking (Asia)",
+    "standard_utc_offset": "+08:00",
+    "utc_offset": "+08:00",
+    "notes": "No DST, alias for Asia/Chongqing"
+  },
+  {
+    "timeZoneKey": "Pacific/Chuuk",
+    "timeZoneDisplay": "Chuuk (Pacific)",
+    "standard_utc_offset": "+10:00",
+    "utc_offset": "+10:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Ciudad_Juarez",
+    "timeZoneDisplay": "Ciudad Juarez (America)",
+    "standard_utc_offset": "-07:00",
+    "utc_offset": "-06:00",
+    "notes": "DST active (-06:00, March-November)"
+  },
+  {
+    "timeZoneKey": "Indian/Cocos",
+    "timeZoneDisplay": "Cocos (Indian)",
+    "standard_utc_offset": "+06:30",
+    "utc_offset": "+06:30",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Asia/Colombo",
+    "timeZoneDisplay": "Colombo (Asia)",
+    "standard_utc_offset": "+05:30",
+    "utc_offset": "+05:30",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Argentina/ComodRivadavia",
+    "timeZoneDisplay": "ComodRivadavia (America/Argentina)",
+    "standard_utc_offset": "-03:00",
+    "utc_offset": "-03:00",
+    "notes": "No DST, alias for America/Catamarca"
+  },
+  {
+    "timeZoneKey": "Indian/Comoro",
+    "timeZoneDisplay": "Comoro (Indian)",
+    "standard_utc_offset": "+03:00",
+    "utc_offset": "+03:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Africa/Conakry",
+    "timeZoneDisplay": "Conakry (Africa)",
+    "standard_utc_offset": "+00:00",
+    "utc_offset": "+00:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Chile/Continental",
+    "timeZoneDisplay": "Continental (Chile)",
+    "standard_utc_offset": "-04:00",
+    "utc_offset": "-04:00",
+    "notes": "DST may apply (-03:00, typically September-April), maps to America/Santiago"
+  },
+  {
+    "timeZoneKey": "Europe/Copenhagen",
+    "timeZoneDisplay": "Copenhagen (Europe)",
+    "standard_utc_offset": "+01:00",
+    "utc_offset": "+02:00",
+    "notes": "DST active (+02:00, March-October)"
+  },
+  {
+    "timeZoneKey": "America/Coral_Harbour",
+    "timeZoneDisplay": "Coral Harbour (America)",
+    "standard_utc_offset": "-05:00",
+    "utc_offset": "-05:00",
+    "notes": "No DST, alias for America/Atikokan"
+  },
+  {
+    "timeZoneKey": "America/Cordoba",
+    "timeZoneDisplay": "Cordoba (America)",
+    "standard_utc_offset": "-03:00",
+    "utc_offset": "-03:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Argentina/Cordoba",
+    "timeZoneDisplay": "Cordoba (America/Argentina)",
+    "standard_utc_offset": "-03:00",
+    "utc_offset": "-03:00",
+    "notes": "No DST, alias for America/Cordoba"
+  },
+  {
+    "timeZoneKey": "America/Costa_Rica",
+    "timeZoneDisplay": "Costa Rica (America)",
+    "standard_utc_offset": "-06:00",
+    "utc_offset": "-06:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Creston",
+    "timeZoneDisplay": "Creston (America)",
+    "standard_utc_offset": "-07:00",
+    "utc_offset": "-07:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "CST6CDT",
+    "timeZoneDisplay": "CST6CDT",
+    "standard_utc_offset": "-06:00",
+    "utc_offset": "-05:00",
+    "notes": "DST active (-05:00, March-November), maps to America/Chicago"
+  },
+  {
+    "timeZoneKey": "Cuba",
+    "timeZoneDisplay": "Cuba",
+    "standard_utc_offset": "-05:00",
+    "utc_offset": "-04:00",
+    "notes": "DST active (-04:00, March-November), maps to America/Havana"
+  },
+  {
+    "timeZoneKey": "America/Cuiaba",
+    "timeZoneDisplay": "Cuiaba (America)",
+    "standard_utc_offset": "-04:00",
+    "utc_offset": "-04:00",
+    "notes": "DST may apply (-03:00, typically November-March)"
+  },
+  {
+    "timeZoneKey": "America/Curacao",
+    "timeZoneDisplay": "Curacao (America)",
+    "standard_utc_offset": "-04:00",
+    "utc_offset": "-04:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Australia/Currie",
+    "timeZoneDisplay": "Currie (Australia)",
+    "standard_utc_offset": "+10:00",
+    "utc_offset": "+10:00",
+    "notes": "DST may apply (+11:00, typically October-April), alias for Australia/Hobart"
+  },
+  {
+    "timeZoneKey": "Asia/Dacca",
+    "timeZoneDisplay": "Dacca (Asia)",
+    "standard_utc_offset": "+06:00",
+    "utc_offset": "+06:00",
+    "notes": "No DST, alias for Asia/Dhaka"
+  },
+  {
+    "timeZoneKey": "Africa/Dakar",
+    "timeZoneDisplay": "Dakar (Africa)",
+    "standard_utc_offset": "+00:00",
+    "utc_offset": "+00:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Asia/Damascus",
+    "timeZoneDisplay": "Damascus (Asia)",
+    "standard_utc_offset": "+03:00",
+    "utc_offset": "+03:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Danmarkshavn",
+    "timeZoneDisplay": "Danmarkshavn (America)",
+    "standard_utc_offset": "+00:00",
+    "utc_offset": "+00:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Africa/Dar_es_Salaam",
+    "timeZoneDisplay": "Dar es Salaam (Africa)",
+    "standard_utc_offset": "+03:00",
+    "utc_offset": "+03:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Australia/Darwin",
+    "timeZoneDisplay": "Darwin (Australia)",
+    "standard_utc_offset": "+09:30",
+    "utc_offset": "+09:30",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Antarctica/Davis",
+    "timeZoneDisplay": "Davis (Antarctica)",
+    "standard_utc_offset": "+07:00",
+    "utc_offset": "+07:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Dawson",
+    "timeZoneDisplay": "Dawson (America)",
+    "standard_utc_offset": "-07:00",
+    "utc_offset": "-07:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Dawson_Creek",
+    "timeZoneDisplay": "Dawson Creek (America)",
+    "standard_utc_offset": "-07:00",
+    "utc_offset": "-07:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Brazil/DeNoronha",
+    "timeZoneDisplay": "DeNoronha (Brazil)",
+    "standard_utc_offset": "-02:00",
+    "utc_offset": "-02:00",
+    "notes": "No DST, maps to America/Noronha"
+  },
+  {
+    "timeZoneKey": "America/Denver",
+    "timeZoneDisplay": "Denver (America)",
+    "standard_utc_offset": "-07:00",
+    "utc_offset": "-06:00",
+    "notes": "DST active (-06:00, March-November)"
+  },
+  {
+    "timeZoneKey": "America/Detroit",
+    "timeZoneDisplay": "Detroit (America)",
+    "standard_utc_offset": "-05:00",
+    "utc_offset": "-04:00",
+    "notes": "DST active (-04:00, March-November)"
+  },
+  {
+    "timeZoneKey": "Asia/Dhaka",
+    "timeZoneDisplay": "Dhaka (Asia)",
+    "standard_utc_offset": "+06:00",
+    "utc_offset": "+06:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Asia/Dili",
+    "timeZoneDisplay": "Dili (Asia)",
+    "standard_utc_offset": "+09:00",
+    "utc_offset": "+09:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Africa/Djibouti",
+    "timeZoneDisplay": "Djibouti (Africa)",
+    "standard_utc_offset": "+03:00",
+    "utc_offset": "+03:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Dominica",
+    "timeZoneDisplay": "Dominica (America)",
+    "standard_utc_offset": "-04:00",
+    "utc_offset": "-04:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Africa/Douala",
+    "timeZoneDisplay": "Douala (Africa)",
+    "standard_utc_offset": "+01:00",
+    "utc_offset": "+01:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Asia/Dubai",
+    "timeZoneDisplay": "Dubai (Asia)",
+    "standard_utc_offset": "+04:00",
+    "utc_offset": "+04:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Europe/Dublin",
+    "timeZoneDisplay": "Dublin (Europe)",
+    "standard_utc_offset": "+00:00",
+    "utc_offset": "+01:00",
+    "notes": "DST active (+01:00, March-October)"
+  },
+  {
+    "timeZoneKey": "Antarctica/DumontDUrville",
+    "timeZoneDisplay": "DumontDUrville (Antarctica)",
+    "standard_utc_offset": "+10:00",
+    "utc_offset": "+10:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Asia/Dushanbe",
+    "timeZoneDisplay": "Dushanbe (Asia)",
+    "standard_utc_offset": "+05:00",
+    "utc_offset": "+05:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Brazil/East",
+    "timeZoneDisplay": "East (Brazil)",
+    "standard_utc_offset": "-03:00",
+    "utc_offset": "-03:00",
+    "notes": "DST may apply (-02:00, typically November-March), maps to America/Sao_Paulo"
+  },
+  {
+    "timeZoneKey": "US/East-Indiana",
+    "timeZoneDisplay": "East-Indiana (US)",
+    "standard_utc_offset": "-05:00",
+    "utc_offset": "-04:00",
+    "notes": "DST active (-04:00, March-November), maps to America/Indiana/Indianapolis"
+  },
+  {
+    "timeZoneKey": "Pacific/Easter",
+    "timeZoneDisplay": "Easter (Pacific)",
+    "standard_utc_offset": "-06:00",
+    "utc_offset": "-06:00",
+    "notes": "DST may apply (-05:00, typically September-April)"
+  },
+  {
+    "timeZoneKey": "Chile/EasterIsland",
+    "timeZoneDisplay": "EasterIsland (Chile)",
+    "standard_utc_offset": "-06:00",
+    "utc_offset": "-06:00",
+    "notes": "DST may apply (-05:00, typically September-April), maps to Pacific/Easter"
+  },
+  {
+    "timeZoneKey": "Canada/Eastern",
+    "timeZoneDisplay": "Eastern (Canada)",
+    "standard_utc_offset": "-05:00",
+    "utc_offset": "-04:00",
+    "notes": "DST active (-04:00, March-November), maps to America/Toronto"
+  },
+  {
+    "timeZoneKey": "US/Eastern",
+    "timeZoneDisplay": "Eastern (US)",
+    "standard_utc_offset": "-05:00",
+    "utc_offset": "-04:00",
+    "notes": "DST active (-04:00, March-November), maps to America/New_York"
+  },
+  {
+    "timeZoneKey": "America/Edmonton",
+    "timeZoneDisplay": "Edmonton (America)",
+    "standard_utc_offset": "-07:00",
+    "utc_offset": "-06:00",
+    "notes": "DST active (-06:00, March-November)"
+  },
+  {
+    "timeZoneKey": "EET",
+    "timeZoneDisplay": "EET",
+    "standard_utc_offset": "+02:00",
+    "utc_offset": "+03:00",
+    "notes": "DST active (+03:00, March-October), maps to Europe/Athens"
+  },
+  {
+    "timeZoneKey": "Pacific/Efate",
+    "timeZoneDisplay": "Efate (Pacific)",
+    "standard_utc_offset": "+11:00",
+    "utc_offset": "+11:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Egypt",
+    "timeZoneDisplay": "Egypt",
+    "standard_utc_offset": "+02:00",
+    "utc_offset": "+03:00",
+    "notes": "DST active (+03:00, April-October), maps to Africa/Cairo"
+  },
+  {
+    "timeZoneKey": "Eire",
+    "timeZoneDisplay": "Eire",
+    "standard_utc_offset": "+00:00",
+    "utc_offset": "+01:00",
+    "notes": "DST active (+01:00, March-October), maps to Europe/Dublin"
+  },
+  {
+    "timeZoneKey": "America/Eirunepe",
+    "timeZoneDisplay": "Eirunepe (America)",
+    "standard_utc_offset": "-05:00",
+    "utc_offset": "-05:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Africa/El_Aaiun",
+    "timeZoneDisplay": "El Aaiun (Africa)",
+    "standard_utc_offset": "+01:00",
+    "utc_offset": "+01:00",
+    "notes": "DST may apply (+00:00, typically April-October)"
+  },
+  {
+    "timeZoneKey": "America/El_Salvador",
+    "timeZoneDisplay": "El Salvador (America)",
+    "standard_utc_offset": "-06:00",
+    "utc_offset": "-06:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Pacific/Enderbury",
+    "timeZoneDisplay": "Enderbury (Pacific)",
+    "standard_utc_offset": "+12:00",
+    "utc_offset": "+12:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Ensenada",
+    "timeZoneDisplay": "Ensenada (America)",
+    "standard_utc_offset": "-08:00",
+    "utc_offset": "-07:00",
+    "notes": "DST active (-07:00, March-November), alias for America/Tijuana"
+  },
+  {
+    "timeZoneKey": "EST",
+    "timeZoneDisplay": "EST",
+    "standard_utc_offset": "-05:00",
+    "utc_offset": "-05:00",
+    "notes": "No DST, maps to America/New_York"
+  },
+  {
+    "timeZoneKey": "EST5EDT",
+    "timeZoneDisplay": "EST5EDT",
+    "standard_utc_offset": "-05:00",
+    "utc_offset": "-04:00",
+    "notes": "DST active (-04:00, March-November), maps to America/New_York"
+  },
+  {
+    "timeZoneKey": "Australia/Eucla",
+    "timeZoneDisplay": "Eucla (Australia)",
+    "standard_utc_offset": "+08:45",
+    "utc_offset": "+08:45",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Atlantic/Faeroe",
+    "timeZoneDisplay": "Faeroe (Atlantic)",
+    "standard_utc_offset": "+00:00",
+    "utc_offset": "+01:00",
+    "notes": "DST active (+01:00, March-October), alias for Atlantic/Faroe"
+  },
+  {
+    "timeZoneKey": "Pacific/Fakaofo",
+    "timeZoneDisplay": "Fakaofo (Pacific)",
+    "standard_utc_offset": "+13:00",
+    "utc_offset": "+13:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Asia/Famagusta",
+    "timeZoneDisplay": "Famagusta (Asia)",
+    "standard_utc_offset": "+02:00",
+    "utc_offset": "+03:00",
+    "notes": "DST active (+03:00, March-October)"
+  },
+  {
+    "timeZoneKey": "Atlantic/Faroe",
+    "timeZoneDisplay": "Faroe (Atlantic)",
+    "standard_utc_offset": "+00:00",
+    "utc_offset": "+01:00",
+    "notes": "DST active (+01:00, March-October)"
+  },
+  {
+    "timeZoneKey": "Pacific/Fiji",
+    "timeZoneDisplay": "Fiji (Pacific)",
+    "standard_utc_offset": "+12:00",
+    "utc_offset": "+12:00",
+    "notes": "DST may apply (+13:00, typically November-March)"
+  },
+  {
+    "timeZoneKey": "America/Fort_Nelson",
+    "timeZoneDisplay": "Fort Nelson (America)",
+    "standard_utc_offset": "-07:00",
+    "utc_offset": "-07:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Fort_Wayne",
+    "timeZoneDisplay": "Fort Wayne (America)",
+    "standard_utc_offset": "-05:00",
+    "utc_offset": "-04:00",
+    "notes": "DST active (-04:00, March-November), alias for America/Indiana/Indianapolis"
+  },
+  {
+    "timeZoneKey": "America/Fortaleza",
+    "timeZoneDisplay": "Fortaleza (America)",
+    "standard_utc_offset": "-03:00",
+    "utc_offset": "-03:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Africa/Freetown",
+    "timeZoneDisplay": "Freetown (Africa)",
+    "standard_utc_offset": "+00:00",
+    "utc_offset": "+00:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Pacific/Funafuti",
+    "timeZoneDisplay": "Funafuti (Pacific)",
+    "standard_utc_offset": "+12:00",
+    "utc_offset": "+12:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Africa/Gaborone",
+    "timeZoneDisplay": "Gaborone (Africa)",
+    "standard_utc_offset": "+02:00",
+    "utc_offset": "+02:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Pacific/Galapagos",
+    "timeZoneDisplay": "Galapagos (Pacific)",
+    "standard_utc_offset": "-06:00",
+    "utc_offset": "-06:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Pacific/Gambier",
+    "timeZoneDisplay": "Gambier (Pacific)",
+    "standard_utc_offset": "-09:00",
+    "utc_offset": "-09:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Asia/Gaza",
+    "timeZoneDisplay": "Gaza (Asia)",
+    "standard_utc_offset": "+02:00",
+    "utc_offset": "+03:00",
+    "notes": "DST active (+03:00, March-October)"
+  },
+  {
+    "timeZoneKey": "GB",
+    "timeZoneDisplay": "GB",
+    "standard_utc_offset": "+00:00",
+    "utc_offset": "+01:00",
+    "notes": "DST active (+01:00, March-October), maps to Europe/London"
+  },
+  {
+    "timeZoneKey": "GB-Eire",
+    "timeZoneDisplay": "GB-Eire",
+    "standard_utc_offset": "+00:00",
+    "utc_offset": "+01:00",
+    "notes": "DST active (+01:00, March-October), maps to Europe/London"
+  },
+  {
+    "timeZoneKey": "Mexico/General",
+    "timeZoneDisplay": "General (Mexico)",
+    "standard_utc_offset": "-06:00",
+    "utc_offset": "-06:00",
+    "notes": "DST may apply (-05:00, typically April-October), maps to America/Mexico_City"
+  },
+  {
+    "timeZoneKey": "Europe/Gibraltar",
+    "timeZoneDisplay": "Gibraltar (Europe)",
+    "standard_utc_offset": "+01:00",
+    "utc_offset": "+02:00",
+    "notes": "DST active (+02:00, March-October)"
+  },
+  {
+    "timeZoneKey": "America/Glace_Bay",
+    "timeZoneDisplay": "Glace Bay (America)",
+    "standard_utc_offset": "-04:00",
+    "utc_offset": "-03:00",
+    "notes": "DST active (-03:00, March-November)"
+  },
+  {
+    "timeZoneKey": "GMT",
+    "timeZoneDisplay": "GMT",
+    "standard_utc_offset": "+00:00",
+    "utc_offset": "+00:00",
+    "notes": "No DST, maps to Etc/UTC"
+  },
+  {
+    "timeZoneKey": "Etc/GMT",
+    "timeZoneDisplay": "GMT (Etc)",
+    "standard_utc_offset": "+00:00",
+    "utc_offset": "+00:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "GMT+0",
+    "timeZoneDisplay": "GMT+0",
+    "standard_utc_offset": "+00:00",
+    "utc_offset": "+00:00",
+    "notes": "No DST, maps to Etc/UTC"
+  },
+  {
+    "timeZoneKey": "Etc/GMT+0",
+    "timeZoneDisplay": "GMT+0 (Etc)",
+    "standard_utc_offset": "+00:00",
+    "utc_offset": "+00:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Etc/GMT+1",
+    "timeZoneDisplay": "GMT+1 (Etc)",
+    "standard_utc_offset": "-01:00",
+    "utc_offset": "-01:00",
+    "notes": "No DST, note: Etc/GMT+1 means UTC-01:00"
+  },
+  {
+    "timeZoneKey": "Etc/GMT+10",
+    "timeZoneDisplay": "GMT+10 (Etc)",
+    "standard_utc_offset": "-10:00",
+    "utc_offset": "-10:00",
+    "notes": "No DST, note: Etc/GMT+10 means UTC-10:00"
+  },
+  {
+    "timeZoneKey": "Etc/GMT+11",
+    "timeZoneDisplay": "GMT+11 (Etc)",
+    "standard_utc_offset": "-11:00",
+    "utc_offset": "-11:00",
+    "notes": "No DST, note: Etc/GMT+11 means UTC-11:00"
+  },
+  {
+    "timeZoneKey": "Etc/GMT+12",
+    "timeZoneDisplay": "GMT+12 (Etc)",
+    "standard_utc_offset": "-12:00",
+    "utc_offset": "-12:00",
+    "notes": "No DST, note: Etc/GMT+12 means UTC-12:00"
+  },
+  {
+    "timeZoneKey": "Etc/GMT+2",
+    "timeZoneDisplay": "GMT+2 (Etc)",
+    "standard_utc_offset": "-02:00",
+    "utc_offset": "-02:00",
+    "notes": "No DST, note: Etc/GMT+2 means UTC-02:00"
+  },
+  {
+    "timeZoneKey": "Etc/GMT+3",
+    "timeZoneDisplay": "GMT+3 (Etc)",
+    "standard_utc_offset": "-03:00",
+    "utc_offset": "-03:00",
+    "notes": "No DST, note: Etc/GMT+3 means UTC-03:00"
+  },
+  {
+    "timeZoneKey": "Etc/GMT+4",
+    "timeZoneDisplay": "GMT+4 (Etc)",
+    "standard_utc_offset": "-04:00",
+    "utc_offset": "-04:00",
+    "notes": "No DST, note: Etc/GMT+4 means UTC-04:00"
+  },
+  {
+    "timeZoneKey": "Etc/GMT+5",
+    "timeZoneDisplay": "GMT+5 (Etc)",
+    "standard_utc_offset": "-05:00",
+    "utc_offset": "-05:00",
+    "notes": "No DST, note: Etc/GMT+5 means UTC-05:00"
+  },
+  {
+    "timeZoneKey": "Etc/GMT+6",
+    "timeZoneDisplay": "GMT+6 (Etc)",
+    "standard_utc_offset": "-06:00",
+    "utc_offset": "-06:00",
+    "notes": "No DST, note: Etc/GMT+6 means UTC-06:00"
+  },
+  {
+    "timeZoneKey": "Etc/GMT+7",
+    "timeZoneDisplay": "GMT+7 (Etc)",
+    "standard_utc_offset": "-07:00",
+    "utc_offset": "-07:00",
+    "notes": "No DST, note: Etc/GMT+7 means UTC-07:00"
+  },
+  {
+    "timeZoneKey": "Etc/GMT+8",
+    "timeZoneDisplay": "GMT+8 (Etc)",
+    "standard_utc_offset": "-08:00",
+    "utc_offset": "-08:00",
+    "notes": "No DST, note: Etc/GMT+8 means UTC-08:00"
+  },
+  {
+    "timeZoneKey": "Etc/GMT+9",
+    "timeZoneDisplay": "GMT+9 (Etc)",
+    "standard_utc_offset": "-09:00",
+    "utc_offset": "-09:00",
+    "notes": "No DST, note: Etc/GMT+9 means UTC-09:00"
+  },
+  {
+    "timeZoneKey": "GMT-0",
+    "timeZoneDisplay": "GMT-0",
+    "standard_utc_offset": "+00:00",
+    "utc_offset": "+00:00",
+    "notes": "No DST, maps to Etc/UTC"
+  },
+  {
+    "timeZoneKey": "Etc/GMT-0",
+    "timeZoneDisplay": "GMT-0 (Etc)",
+    "standard_utc_offset": "+00:00",
+    "utc_offset": "+00:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Etc/GMT-1",
+    "timeZoneDisplay": "GMT-1 (Etc)",
+    "standard_utc_offset": "+01:00",
+    "utc_offset": "+01:00",
+    "notes": "No DST, note: Etc/GMT-1 means UTC+1"
+  },
+  {
+    "timeZoneKey": "Etc/GMT-10",
+    "timeZoneDisplay": "GMT-10 (Etc)",
+    "standard_utc_offset": "+10:00",
+    "utc_offset": "+10:00",
+    "notes": "No DST, note: Etc/GMT-10 means UTC+10"
+  },
+  {
+    "timeZoneKey": "Etc/GMT-11",
+    "timeZoneDisplay": "GMT-11 (Etc)",
+    "standard_utc_offset": "+11:00",
+    "utc_offset": "+11:00",
+    "notes": "No DST, note: Etc/GMT-11 means UTC+11"
+  },
+  {
+    "timeZoneKey": "Etc/GMT-12",
+    "timeZoneDisplay": "GMT-12 (Etc)",
+    "standard_utc_offset": "+12:00",
+    "utc_offset": "+12:00",
+    "notes": "No DST, note: Etc/GMT-12 means UTC+12"
+  },
+  {
+    "timeZoneKey": "Etc/GMT-13",
+    "timeZoneDisplay": "GMT-13 (Etc)",
+    "standard_utc_offset": "+13:00",
+    "utc_offset": "+13:00",
+    "notes": "No DST, note: Etc/GMT-13 means UTC+13"
+  },
+  {
+    "timeZoneKey": "Etc/GMT-14",
+    "timeZoneDisplay": "GMT-14 (Etc)",
+    "standard_utc_offset": "+14:00",
+    "utc_offset": "+14:00",
+    "notes": "No DST, note: Etc/GMT-14 means UTC+14"
+  },
+  {
+    "timeZoneKey": "Etc/GMT-2",
+    "timeZoneDisplay": "GMT-2 (Etc)",
+    "standard_utc_offset": "+02:00",
+    "utc_offset": "+02:00",
+    "notes": "No DST, note: Etc/GMT-2 means UTC+2"
+  },
+  {
+    "timeZoneKey": "Etc/GMT-3",
+    "timeZoneDisplay": "GMT-3 (Etc)",
+    "standard_utc_offset": "+03:00",
+    "utc_offset": "+03:00",
+    "notes": "No DST, note: Etc/GMT-3 means UTC+3"
+  },
+  {
+    "timeZoneKey": "Etc/GMT-4",
+    "timeZoneDisplay": "GMT-4 (Etc)",
+    "standard_utc_offset": "+04:00",
+    "utc_offset": "+04:00",
+    "notes": "No DST, note: Etc/GMT-4 means UTC+4"
+  },
+  {
+    "timeZoneKey": "Etc/GMT-5",
+    "timeZoneDisplay": "GMT-5 (Etc)",
+    "standard_utc_offset": "+05:00",
+    "utc_offset": "+05:00",
+    "notes": "No DST, note: Etc/GMT-5 means UTC+5"
+  },
+  {
+    "timeZoneKey": "Etc/GMT-6",
+    "timeZoneDisplay": "GMT-6 (Etc)",
+    "standard_utc_offset": "+06:00",
+    "utc_offset": "+06:00",
+    "notes": "No DST, note: Etc/GMT-6 means UTC+6"
+  },
+  {
+    "timeZoneKey": "Etc/GMT-7",
+    "timeZoneDisplay": "GMT-7 (Etc)",
+    "standard_utc_offset": "+07:00",
+    "utc_offset": "+07:00",
+    "notes": "No DST, note: Etc/GMT-7 means UTC+7"
+  },
+  {
+    "timeZoneKey": "Etc/GMT-8",
+    "timeZoneDisplay": "GMT-8 (Etc)",
+    "standard_utc_offset": "+08:00",
+    "utc_offset": "+08:00",
+    "notes": "No DST, note: Etc/GMT-8 means UTC+8"
+  },
+  {
+    "timeZoneKey": "Etc/GMT-9",
+    "timeZoneDisplay": "GMT-9 (Etc)",
+    "standard_utc_offset": "+09:00",
+    "utc_offset": "+09:00",
+    "notes": "No DST, note: Etc/GMT-9 means UTC+9"
+  },
+  {
+    "timeZoneKey": "GMT0",
+    "timeZoneDisplay": "GMT0",
+    "standard_utc_offset": "+00:00",
+    "utc_offset": "+00:00",
+    "notes": "No DST, maps to Etc/UTC"
+  },
+  {
+    "timeZoneKey": "Etc/GMT0",
+    "timeZoneDisplay": "GMT0 (Etc)",
+    "standard_utc_offset": "+00:00",
+    "utc_offset": "+00:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Godthab",
+    "timeZoneDisplay": "Godthab (America)",
+    "standard_utc_offset": "-02:00",
+    "utc_offset": "-01:00",
+    "notes": "DST active (-01:00, March-October), alias for America/Nuuk"
+  },
+  {
+    "timeZoneKey": "America/Goose_Bay",
+    "timeZoneDisplay": "Goose Bay (America)",
+    "standard_utc_offset": "-04:00",
+    "utc_offset": "-03:00",
+    "notes": "DST active (-03:00, March-November)"
+  },
+  {
+    "timeZoneKey": "America/Grand_Turk",
+    "timeZoneDisplay": "Grand Turk (America)",
+    "standard_utc_offset": "-05:00",
+    "utc_offset": "-04:00",
+    "notes": "DST active (-04:00, March-November)"
+  },
+  {
+    "timeZoneKey": "Greenwich",
+    "timeZoneDisplay": "Greenwich",
+    "standard_utc_offset": "+00:00",
+    "utc_offset": "+00:00",
+    "notes": "No DST, maps to Etc/UTC"
+  },
+  {
+    "timeZoneKey": "Etc/Greenwich",
+    "timeZoneDisplay": "Greenwich (Etc)",
+    "standard_utc_offset": "+00:00",
+    "utc_offset": "+00:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Grenada",
+    "timeZoneDisplay": "Grenada (America)",
+    "standard_utc_offset": "-04:00",
+    "utc_offset": "-04:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Pacific/Guadalcanal",
+    "timeZoneDisplay": "Guadalcanal (Pacific)",
+    "standard_utc_offset": "+11:00",
+    "utc_offset": "+11:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Guadeloupe",
+    "timeZoneDisplay": "Guadeloupe (America)",
+    "standard_utc_offset": "-04:00",
+    "utc_offset": "-04:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Pacific/Guam",
+    "timeZoneDisplay": "Guam (Pacific)",
+    "standard_utc_offset": "+10:00",
+    "utc_offset": "+10:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Guatemala",
+    "timeZoneDisplay": "Guatemala (America)",
+    "standard_utc_offset": "-06:00",
+    "utc_offset": "-06:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Guayaquil",
+    "timeZoneDisplay": "Guayaquil (America)",
+    "standard_utc_offset": "-05:00",
+    "utc_offset": "-05:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZneKey": "Europe/Guernsey",
+    "timeZoneDisplay": "Guernsey (Europe)",
+    "standard_utc_offset": "+00:00",
+    "utc_offset": "+01:00",
+    "notes": "DST active (+01:00, March-October), maps to Europe/London"
+  },
+  {
+    "timeZoneKey": "America/Guyana",
+    "timeZoneDisplay": "Guyana (America)",
+    "standard_utc_offset": "-04:00",
+    "utc_offset": "-04:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Halifax",
+    "timeZoneDisplay": "Halifax (America)",
+    "standard_utc_offset": "-04:00",
+    "utc_offset": "-03:00",
+    "notes": "DST active (-03:00, March-November)"
+  },
+  {
+    "timeZoneKey": "Africa/Harare",
+    "timeZoneDisplay": "Harare (Africa)",
+    "standard_utc_offset": "+02:00",
+    "utc_offset": "+02:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Asia/Harbin",
+    "timeZoneDisplay": "Harbin (Asia)",
+    "standard_utc_offset": "+08:00",
+    "utc_offset": "+08:00",
+    "notes": "No DST, alias for Asia/Shanghai"
+  },
+  {
+    "timeZoneKey": "America/Havana",
+    "timeZoneDisplay": "Havana (America)",
+    "standard_utc_offset": "-05:00",
+    "utc_offset": "-04:00",
+    "notes": "DST active (-04:00, March-November)"
+  },
+  {
+    "timeZoneKey": "US/Hawaii",
+    "timeZoneDisplay": "Hawaii (US)",
+    "standard_utc_offset": "-10:00",
+    "utc_offset": "-10:00",
+    "notes": "No DST, maps to Pacific/Honolulu"
+  },
+  {
+    "timeZoneKey": "Asia/Hebron",
+    "timeZoneDisplay": "Hebron (Asia)",
+    "standard_utc_offset": "+02:00",
+    "utc_offset": "+03:00",
+    "notes": "DST active (+03:00, March-October)"
+  },
+  {
+    "timeZoneKey": "Europe/Helsinki",
+    "timeZoneDisplay": "Helsinki (Europe)",
+    "standard_utc_offset": "+02:00",
+    "utc_offset": "+03:00",
+    "notes": "DST active (+03:00, March-October)"
+  },
+  {
+    "timeZoneKey": "America/Hermosillo",
+    "timeZoneDisplay": "Hermosillo (America)",
+    "standard_utc_offset": "-07:00",
+    "utc_offset": "-07:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Asia/Ho_Chi_Minh",
+    "timeZoneDisplay": "Ho Chi Minh (Asia)",
+    "standard_utc_offset": "+07:00",
+    "utc_offset": "+07:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Australia/Hobart",
+    "timeZoneDisplay": "Hobart (Australia)",
+    "standard_utc_offset": "+10:00",
+    "utc_offset": "+10:00",
+    "notes": "DST may apply (+11:00, typically October-April)"
+  },
+  {
+    "timeZoneKey": "Asia/Hong_Kong",
+    "timeZoneDisplay": "Hong Kong (Asia)",
+    "standard_utc_offset": "+08:00",
+    "utc_offset": "+08:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Hongkong",
+    "timeZoneDisplay": "Hongkong",
+    "standard_utc_offset": "+08:00",
+    "utc_offset": "+08:00",
+    "notes": "No DST, alias for Asia/Hong_Kong"
+  },
+  {
+    "timeZoneKey": "Pacific/Honolulu",
+    "timeZoneDisplay": "Honolulu (Pacific)",
+    "standard_utc_offset": "-10:00",
+    "utc_offset": "-10:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Asia/Hovd",
+    "timeZoneDisplay": "Hovd (Asia)",
+    "standard_utc_offset": "+07:00",
+    "utc_offset": "+07:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "HST",
+    "timeZoneDisplay": "HST",
+    "standard_utc_offset": "-10:00",
+    "utc_offset": "-10:00",
+    "notes": "No DST, maps to Pacific/Honolulu"
+  },
+  {
+    "timeZoneKey": "Iceland",
+    "timeZoneDisplay": "Iceland",
+    "standard_utc_offset": "+00:00",
+    "utc_offset": "+00:00",
+    "notes": "No DST, maps to Atlantic/Reykjavik"
+  },
+  {
+    "timeZoneKey": "US/Indiana-Starke",
+    "timeZoneDisplay": "Indiana-Starke (US)",
+    "standard_utc_offset": "-06:00",
+    "utc_offset": "-05:00",
+    "notes": "DST active (-05:00, March-November), maps to America/Indiana/Knox"
+  },
+  {
+    "timeZoneKey": "America/Indianapolis",
+    "timeZoneDisplay": "Indianapolis (America)",
+    "standard_utc_offset": "-05:00",
+    "utc_offset": "-04:00",
+    "notes": "DST active (-04:00, March-November)"
+  },
+  {
+    "timeZoneKey": "America/Indiana/Indianapolis",
+    "timeZoneDisplay": "Indianapolis (America/Indiana)",
+    "standard_utc_offset": "-05:00",
+    "utc_offset": "-04:00",
+    "notes": "DST active (-04:00, March-November), alias for America/Indianapolis"
+  },
+  {
+    "timeZoneKey": "America/Inuvik",
+    "timeZoneDisplay": "Inuvik (America)",
+    "standard_utc_offset": "-07:00",
+    "utc_offset": "-06:00",
+    "notes": "DST active (-06:00, March-November)"
+  },
+  {
+    "timeZoneKey": "America/Iqaluit",
+    "timeZoneDisplay": "Iqaluit (America)",
+    "standard_utc_offset": "-05:00",
+    "utc_offset": "-04:00",
+    "notes": "DST active (-04:00, March-November)"
+  },
+  {
+    "timeZoneKey": "Iran",
+    "timeZoneDisplay": "Iran",
+    "standard_utc_offset": "+03:30",
+    "utc_offset": "+04:30",
+    "notes": "DST active (+04:30, March-September), maps to Asia/Tehran"
+  },
+  {
+    "timeZoneKey": "Asia/Irkutsk",
+    "timeZoneDisplay": "Irkutsk (Asia)",
+    "standard_utc_offset": "+08:00",
+    "utc_offset": "+08:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Europe/Isle_of_Man",
+    "timeZoneDisplay": "Isle of Man (Europe)",
+    "standard_utc_offset": "+00:00",
+    "utc_offset": "+01:00",
+    "notes": "DST active (+01:00, March-October), maps to Europe/London"
+  },
+  {
+    "timeZoneKey": "Israel",
+    "timeZoneDisplay": "Israel",
+    "standard_utc_offset": "+02:00",
+    "utc_offset": "+03:00",
+    "notes": "DST active (+03:00, March-October), maps to Asia/Jerusalem"
+  },
+  {
+    "timeZoneKey": "Asia/Istanbul",
+    "timeZoneDisplay": "Istanbul (Asia)",
+    "standard_utc_offset": "+03:00",
+    "utc_offset": "+03:00",
+    "notes": "No DST, alias for Europe/Istanbul"
+  },
+  {
+    "timeZoneKey": "Europe/Istanbul",
+    "timeZoneDisplay": "Istanbul (Europe)",
+    "standard_utc_offset": "+03:00",
+    "utc_offset": "+03:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Asia/Jakarta",
+    "timeZoneDisplay": "Jakarta (Asia)",
+    "standard_utc_offset": "+07:00",
+    "utc_offset": "+07:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Jamaica",
+    "timeZoneDisplay": "Jamaica",
+    "standard_utc_offset": "-05:00",
+    "utc_offset": "-05:00",
+    "notes": "No DST, maps to America/Jamaica"
+  },
+  {
+    "timeZoneKey": "America/Jamaica",
+    "timeZoneDisplay": "Jamaica (America)",
+    "standard_utc_offset": "-05:00",
+    "utc_offset": "-05:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Atlantic/Jan_Mayen",
+    "timeZoneDisplay": "Jan Mayen (Atlantic)",
+    "standard_utc_offset": "+01:00",
+    "utc_offset": "+02:00",
+    "notes": "DST active (+02:00, March-October), alias for Europe/Oslo"
+  },
+  {
+    "timeZoneKey": "Japan",
+    "timeZoneDisplay": "Japan",
+    "standard_utc_offset": "+09:00",
+    "utc_offset": "+09:00",
+    "notes": "No DST, maps to Asia/Tokyo"
+  },
+  {
+    "timeZoneKey": "Asia/Jayapura",
+    "timeZoneDisplay": "Jayapura (Asia)",
+    "standard_utc_offset": "+09:00",
+    "utc_offset": "+09:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Europe/Jersey",
+    "timeZoneDisplay": "Jersey (Europe)",
+    "standard_utc_offset": "+00:00",
+    "utc_offset": "+01:00",
+    "notes": "DST active (+01:00, March-October), maps to Europe/London"
+  },
+  {
+    "timeZoneKey": "Asia/Jerusalem",
+    "timeZoneDisplay": "Jerusalem (Asia)",
+    "standard_utc_offset": "+02:00",
+    "utc_offset": "+03:00",
+    "notes": "DST active (+03:00, March-October)"
+  },
+  {
+    "timeZoneKey": "Africa/Johannesburg",
+    "timeZoneDisplay": "Johannesburg (Africa)",
+    "standard_utc_offset": "+02:00",
+    "utc_offset": "+02:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Pacific/Johnston",
+    "timeZoneDisplay": "Johnston (Pacific)",
+    "standard_utc_offset": "-10:00",
+    "utc_offset": "-10:00",
+    "notes": "No DST, alias for Pacific/Honolulu"
+  },
+  {
+    "timeZoneKey": "Africa/Juba",
+    "timeZoneDisplay": "Juba (Africa)",
+    "standard_utc_offset": "+02:00",
+    "utc_offset": "+02:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Jujuy",
+    "timeZoneDisplay": "Jujuy (America)",
+    "standard_utc_offset": "-03:00",
+    "utc_offset": "-03:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Argentina/Jujuy",
+    "timeZoneDisplay": "Jujuy (America/Argentina)",
+    "standard_utc_offset": "-03:00",
+    "utc_offset": "-03:00",
+    "notes": "No DST, alias for America/Jujuy"
+  },
+  {
+    "timeZoneKey": "America/Juneau",
+    "timeZoneDisplay": "Juneau (America)",
+    "standard_utc_offset": "-09:00",
+    "utc_offset": "-08:00",
+    "notes": "DST active (-08:00, March-November)"
+  },
+  {
+    "timeZoneKey": "Asia/Kabul",
+    "timeZoneDisplay": "Kabul (Asia)",
+    "standard_utc_offset": "+04:30",
+    "utc_offset": "+04:30",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Europe/Kaliningrad",
+    "timeZoneDisplay": "Kaliningrad (Europe)",
+    "standard_utc_offset": "+02:00",
+    "utc_offset": "+02:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Asia/Kamchatka",
+    "timeZoneDisplay": "Kamchatka (Asia)",
+    "standard_utc_offset": "+12:00",
+    "utc_offset": "+12:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Africa/Kampala",
+    "timeZoneDisplay": "Kampala (Africa)",
+    "standard_utc_offset": "+03:00",
+    "utc_offset": "+03:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Pacific/Kanton",
+    "timeZoneDisplay": "Kanton (Pacific)",
+    "standard_utc_offset": "+13:00",
+    "utc_offset": "+13:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Asia/Karachi",
+    "timeZoneDisplay": "Karachi (Asia)",
+    "standard_utc_offset": "+05:00",
+    "utc_offset": "+05:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Asia/Kashgar",
+    "timeZoneDisplay": "Kashgar (Asia)",
+    "standard_utc_offset": "+06:00",
+    "utc_offset": "+06:00",
+    "notes": "No DST, alias for Asia/Urumqi"
+  },
+  {
+    "timeZoneKey": "Asia/Kathmandu",
+    "timeZoneDisplay": "Kathmandu (Asia)",
+    "standard_utc_offset": "+05:45",
+    "utc_offset": "+05:45",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Asia/Katmandu",
+    "timeZoneDisplay": "Katmandu (Asia)",
+    "standard_utc_offset": "+05:45",
+    "utc_offset": "+05:45",
+    "notes": "No DST, alias for Asia/Kathmandu"
+  },
+  {
+    "timeZoneKey": "Indian/Kerguelen",
+    "timeZoneDisplay": "Kerguelen (Indian)",
+    "standard_utc_offset": "+05:00",
+    "utc_offset": "+05:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Asia/Khandyga",
+    "timeZoneDisplay": "Khandyga (Asia)",
+    "standard_utc_offset": "+09:00",
+    "utc_offset": "+09:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Africa/Khartoum",
+    "timeZoneDisplay": "Khartoum (Africa)",
+    "standard_utc_offset": "+02:00",
+    "utc_offset": "+02:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Europe/Kiev",
+    "timeZoneDisplay": "Kiev (Europe)",
+    "standard_utc_offset": "+02:00",
+    "utc_offset": "+03:00",
+    "notes": "DST active (+03:00, March-October), alias for Europe/Kyiv"
+  },
+  {
+    "timeZoneKey": "Africa/Kigali",
+    "timeZoneDisplay": "Kigali (Africa)",
+    "standard_utc_offset": "+02:00",
+    "utc_offset": "+02:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Africa/Kinshasa",
+    "timeZoneDisplay": "Kinshasa (Africa)",
+    "standard_utc_offset": "+01:00",
+    "utc_offset": "+01:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Pacific/Kiritimati",
+    "timeZoneDisplay": "Kiritimati (Pacific)",
+    "standard_utc_offset": "+14:00",
+    "utc_offset": "+14:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Europe/Kirov",
+    "timeZoneDisplay": "Kirov (Europe)",
+    "standard_utc_offset": "+03:00",
+    "utc_offset": "+03:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Indiana/Knox",
+    "timeZoneDisplay": "Knox (America/Indiana)",
+    "standard_utc_offset": "-06:00",
+    "utc_offset": "-05:00",
+    "notes": "DST active (-05:00, March-November)"
+  },
+  {
+    "timeZoneKey": "America/Knox_IN",
+    "timeZoneDisplay": "Knox IN (America)",
+    "standard_utc_offset": "-06:00",
+    "utc_offset": "-05:00",
+    "notes": "DST active (-05:00, March-November), alias for America/Indiana/Knox"
+  },
+  {
+    "timeZoneKey": "Asia/Kolkata",
+    "timeZoneDisplay": "Kolkata (Asia)",
+    "standard_utc_offset": "+05:30",
+    "utc_offset": "+05:30",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Pacific/Kosrae",
+    "timeZoneDisplay": "Kosrae (Pacific)",
+    "standard_utc_offset": "+11:00",
+    "utc_offset": "+11:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Kralendijk",
+    "timeZoneDisplay": "Kralendijk (America)",
+    "standard_utc_offset": "-04:00",
+    "utc_offset": "-04:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Asia/Krasnoyarsk",
+    "timeZoneDisplay": "Krasnoyarsk (Asia)",
+    "standard_utc_offset": "+07:00",
+    "utc_offset": "+07:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Asia/Kuala_Lumpur",
+    "timeZoneDisplay": "Kuala Lumpur (Asia)",
+    "standard_utc_offset": "+08:00",
+    "utc_offset": "+08:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Asia/Kuching",
+    "timeZoneDisplay": "Kuching (Asia)",
+    "standard_utc_offset": "+08:00",
+    "utc_offset": "+08:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Asia/Kuwait",
+    "timeZoneDisplay": "Kuwait (Asia)",
+    "standard_utc_offset": "+03:00",
+    "utc_offset": "+03:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Kwajalein",
+    "timeZoneDisplay": "Kwajalein",
+    "standard_utc_offset": "+12:00",
+    "utc_offset": "+12:00",
+    "notes": "No DST, maps to Pacific/Kwajalein"
+  },
+  {
+    "timeZoneKey": "Pacific/Kwajalein",
+    "timeZoneDisplay": "Kwajalein (Pacific)",
+    "standard_utc_offset": "+12:00",
+    "utc_offset": "+12:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Europe/Kyiv",
+    "timeZoneDisplay": "Kyiv (Europe)",
+    "standard_utc_offset": "+02:00",
+    "utc_offset": "+03:00",
+    "notes": "DST active (+03:00, March-October)"
+  },
+  {
+    "timeZoneKey": "America/La_Paz",
+    "timeZoneDisplay": "La Paz (America)",
+    "standard_utc_offset": "-04:00",
+    "utc_offset": "-04:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Argentina/La_Rioja",
+    "timeZoneDisplay": "La Rioja (America/Argentina)",
+    "standard_utc_offset": "-03:00",
+    "utc_offset": "-03:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Africa/Lagos",
+    "timeZoneDisplay": "Lagos (Africa)",
+    "standard_utc_offset": "+01:00",
+    "utc_offset": "+01:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Australia/LHI",
+    "timeZoneDisplay": "LHI (Australia)",
+    "standard_utc_offset": "+10:30",
+    "utc_offset": "+10:30",
+    "notes": "DST may apply (+11:00, typically October-April), maps to Australia/Lord_Howe"
+  },
+  {
+    "timeZoneKey": "Africa/Libreville",
+    "timeZoneDisplay": "Libreville (Africa)",
+    "standard_utc_offset": "+01:00",
+    "utc_offset": "+01:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Libya",
+    "timeZoneDisplay": "Libya",
+    "standard_utc_offset": "+02:00",
+    "utc_offset": "+02:00",
+    "notes": "No DST, maps to Africa/Tripoli"
+  },
+  {
+    "timeZoneKey": "America/Lima",
+    "timeZoneDisplay": "Lima (America)",
+    "standard_utc_offset": "-05:00",
+    "utc_offset": "-05:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Australia/Lindeman",
+    "timeZoneDisplay": "Lindeman (Australia)",
+    "standard_utc_offset": "+10:00",
+    "utc_offset": "+10:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Europe/Lisbon",
+    "timeZoneDisplay": "Lisbon (Europe)",
+    "standard_utc_offset": "+00:00",
+    "utc_offset": "+01:00",
+    "notes": "DST active (+01:00, March-October)"
+  },
+  {
+    "timeZoneKey": "Europe/Ljubljana",
+    "timeZoneDisplay": "Ljubljana (Europe)",
+    "standard_utc_offset": "+01:00",
+    "utc_offset": "+02:00",
+    "notes": "DST active (+02:00, March-October)"
+  },
+  {
+    "timeZoneKey": "Africa/Lome",
+    "timeZoneDisplay": "Lome (Africa)",
+    "standard_utc_offset": "+00:00",
+    "utc_offset": "+00:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Europe/London",
+    "timeZoneDisplay": "London (Europe)",
+    "standard_utc_offset": "+00:00",
+    "utc_offset": "+01:00",
+    "notes": "DST active (+01:00, March-October)"
+  },
+  {
+    "timeZoneKey": "Arctic/Longyearbyen",
+    "timeZoneDisplay": "Longyearbyen (Arctic)",
+    "standard_utc_offset": "+01:00",
+    "utc_offset": "+02:00",
+    "notes": "DST active (+02:00, March-October)"
+  },
+  {
+    "timeZoneKey": "Australia/Lord_Howe",
+    "timeZoneDisplay": "Lord Howe (Australia)",
+    "standard_utc_offset": "+10:30",
+    "utc_offset": "+10:30",
+    "notes": "DST may apply (+11:00, typically October-April)"
+  },
+  {
+    "timeZoneKey": "America/Los_Angeles",
+    "timeZoneDisplay": "Los Angeles (America)",
+    "standard_utc_offset": "-08:00",
+    "utc_offset": "-07:00",
+    "notes": "DST active (-07:00, March-November)"
+  },
+  {
+    "timeZoneKey": "America/Louisville",
+    "timeZoneDisplay": "Louisville (America)",
+    "standard_utc_offset": "-05:00",
+    "utc_offset": "-04:00",
+    "notes": "DST active (-04:00, March-November)"
+  },
+  {
+    "timeZoneKey": "America/Kentucky/Louisville",
+    "timeZoneDisplay": "Louisville (America/Kentucky)",
+    "standard_utc_offset": "-05:00",
+    "utc_offset": "-04:00",
+    "notes": "DST active (-04:00, March-November), alias for America/Louisville"
+  },
+  {
+    "timeZoneKey": "America/Lower_Princes",
+    "timeZoneDisplay": "Lower Princes (America)",
+    "standard_utc_offset": "-04:00",
+    "utc_offset": "-04:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Africa/Luanda",
+    "timeZoneDisplay": "Luanda (Africa)",
+    "standard_utc_offset": "+01:00",
+    "utc_offset": "+01:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Africa/Lubumbashi",
+    "timeZoneDisplay": "Lubumbashi (Africa)",
+    "standard_utc_offset": "+02:00",
+    "utc_offset": "+02:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Africa/Lusaka",
+    "timeZoneDisplay": "Lusaka (Africa)",
+    "standard_utc_offset": "+02:00",
+    "utc_offset": "+02:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Europe/Luxembourg",
+    "timeZoneDisplay": "Luxembourg (Europe)",
+    "standard_utc_offset": "+01:00",
+    "utc_offset": "+02:00",
+    "notes": "DST active (+02:00, March-October)"
+  },
+  {
+    "timeZoneKey": "Asia/Macao",
+    "timeZoneDisplay": "Macao (Asia)",
+    "standard_utc_offset": "+08:00",
+    "utc_offset": "+08:00",
+    "notes": "No DST, alias for Asia/Macau"
+  },
+  {
+    "timeZoneKey": "Asia/Macau",
+    "timeZoneDisplay": "Macau (Asia)",
+    "standard_utc_offset": "+08:00",
+    "utc_offset": "+08:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Maceio",
+    "timeZoneDisplay": "Maceio (America)",
+    "standard_utc_offset": "-03:00",
+    "utc_offset": "-03:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Antarctica/Macquarie",
+    "timeZoneDisplay": "Macquarie (Antarctica)",
+    "standard_utc_offset": "+10:00",
+    "utc_offset": "+10:00",
+    "notes": "DST may apply (+11:00, typically October-April)"
+  },
+  {
+    "timeZoneKey": "Atlantic/Madeira",
+    "timeZoneDisplay": "Madeira (Atlantic)",
+    "standard_utc_offset": "+00:00",
+    "utc_offset": "+01:00",
+    "notes": "DST active (+01:00, March-October)"
+  },
+  {
+    "timeZoneKey": "Europe/Madrid",
+    "timeZoneDisplay": "Madrid (Europe)",
+    "standard_utc_offset": "+01:00",
+    "utc_offset": "+02:00",
+    "notes": "DST active (+02:00, March-October)"
+  },
+  {
+    "timeZoneKey": "Asia/Magadan",
+    "timeZoneDisplay": "Magadan (Asia)",
+    "standard_utc_offset": "+11:00",
+    "utc_offset": "+11:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Indian/Mahe",
+    "timeZoneDisplay": "Mahe (Indian)",
+    "standard_utc_offset": "+04:00",
+    "utc_offset": "+04:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Pacific/Majuro",
+    "timeZoneDisplay": "Majuro (Pacific)",
+    "standard_utc_offset": "+12:00",
+    "utc_offset": "+12:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Asia/Makassar",
+    "timeZoneDisplay": "Makassar (Asia)",
+    "standard_utc_offset": "+08:00",
+    "utc_offset": "+08:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Africa/Malabo",
+    "timeZoneDisplay": "Malabo (Africa)",
+    "standard_utc_offset": "+01:00",
+    "utc_offset": "+01:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Indian/Maldives",
+    "timeZoneDisplay": "Maldives (Indian)",
+    "standard_utc_offset": "+05:00",
+    "utc_offset": "+05:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Europe/Malta",
+    "timeZoneDisplay": "Malta (Europe)",
+    "standard_utc_offset": "+01:00",
+    "utc_offset": "+02:00",
+    "notes": "DST active (+02:00, March-October)"
+  },
+  {
+    "timeZoneKey": "America/Managua",
+    "timeZoneDisplay": "Managua (America)",
+    "standard_utc_offset": "-06:00",
+    "utc_offset": "-06:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Manaus",
+    "timeZoneDisplay": "Manaus (America)",
+    "standard_utc_offset": "-04:00",
+    "utc_offset": "-04:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Asia/Manila",
+    "timeZoneDisplay": "Manila (Asia)",
+    "standard_utc_offset": "+08:00",
+    "utc_offset": "+08:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Africa/Maputo",
+    "timeZoneDisplay": "Maputo (Africa)",
+    "standard_utc_offset": "+02:00",
+    "utc_offset": "+02:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Indiana/Marengo",
+    "timeZoneDisplay": "Marengo (America/Indiana)",
+    "standard_utc_offset": "-05:00",
+    "utc_offset": "-04:00",
+    "notes": "DST active (-04:00, March-November)"
+  },
+  {
+    "timeZoneKey": "Europe/Mariehamn",
+    "timeZoneDisplay": "Mariehamn (Europe)",
+    "standard_utc_offset": "+02:00",
+    "utc_offset": "+03:00",
+    "notes": "DST active (+03:00, March-October)"
+  },
+  {
+    "timeZoneKey": "America/Marigot",
+    "timeZoneDisplay": "Marigot (America)",
+    "standard_utc_offset": "-04:00",
+    "utc_offset": "-04:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Pacific/Marquesas",
+    "timeZoneDisplay": "Marquesas (Pacific)",
+    "standard_utc_offset": "-09:30",
+    "utc_offset": "-09:30",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Martinique",
+    "timeZoneDisplay": "Martinique (America)",
+    "standard_utc_offset": "-04:00",
+    "utc_offset": "-04:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Africa/Maseru",
+    "timeZoneDisplay": "Maseru (Africa)",
+    "standard_utc_offset": "+02:00",
+    "utc_offset": "+02:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Matamoros",
+    "timeZoneDisplay": "Matamoros (America)",
+    "standard_utc_offset": "-06:00",
+    "utc_offset": "-05:00",
+    "notes": "DST active (-05:00, March-November)"
+  },
+  {
+    "timeZoneKey": "Indian/Mauritius",
+    "timeZoneDisplay": "Mauritius (Indian)",
+    "standard_utc_offset": "+04:00",
+    "utc_offset": "+04:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Antarctica/Mawson",
+    "timeZoneDisplay": "Mawson (Antarctica)",
+    "standard_utc_offset": "+05:00",
+    "utc_offset": "+05:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Indian/Mayotte",
+    "timeZoneDisplay": "Mayotte (Indian)",
+    "standard_utc_offset": "+03:00",
+    "utc_offset": "+03:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Mazatlan",
+    "timeZoneDisplay": "Mazatlan (America)",
+    "standard_utc_offset": "-07:00",
+    "utc_offset": "-07:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Africa/Mbabane",
+    "timeZoneDisplay": "Mbabane (Africa)",
+    "standard_utc_offset": "+02:00",
+    "utc_offset": "+02:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Antarctica/McMurdo",
+    "timeZoneDisplay": "McMurdo (Antarctica)",
+    "standard_utc_offset": "+12:00",
+    "utc_offset": "+12:00",
+    "notes": "DST may apply (+13:00, typically September-April)"
+  },
+  {
+    "timeZoneKey": "Australia/Melbourne",
+    "timeZoneDisplay": "Melbourne (Australia)",
+    "standard_utc_offset": "+10:00",
+    "utc_offset": "+10:00",
+    "notes": "DST may apply (+11:00, typically October-April)"
+  },
+  {
+    "timeZoneKey": "America/Mendoza",
+    "timeZoneDisplay": "Mendoza (America)",
+    "standard_utc_offset": "-03:00",
+    "utc_offset": "-03:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Argentina/Mendoza",
+    "timeZoneDisplay": "Mendoza (America/Argentina)",
+    "standard_utc_offset": "-03:00",
+    "utc_offset": "-03:00",
+    "notes": "No DST, alias for America/Mendoza"
+  },
+  {
+    "timeZoneKey": "America/Menominee",
+    "timeZoneDisplay": "Menominee (America)",
+    "standard_utc_offset": "-06:00",
+    "utc_offset": "-05:00",
+    "notes": "DST active (-05:00, March-November)"
+  },
+  {
+    "timeZoneKey": "America/Merida",
+    "timeZoneDisplay": "Merida (America)",
+    "standard_utc_offset": "-06:00",
+    "utc_offset": "-06:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "MET",
+    "timeZoneDisplay": "MET",
+    "standard_utc_offset": "+01:00",
+    "utc_offset": "+02:00",
+    "notes": "DST active (+02:00, March-October), maps to Europe/Paris"
+  },
+  {
+    "timeZoneKey": "America/Metlakatla",
+    "timeZoneDisplay": "Metlakatla (America)",
+    "standard_utc_offset": "-09:00",
+    "utc_offset": "-08:00",
+    "notes": "DST active (-08:00, March-November)"
+  },
+  {
+    "timeZoneKey": "America/Mexico_City",
+    "timeZoneDisplay": "Mexico City (America)",
+    "standard_utc_offset": "-06:00",
+    "utc_offset": "-06:00",
+    "notes": "DST may apply (-05:00, typically April-October)"
+  },
+  {
+    "timeZoneKey": "US/Michigan",
+    "timeZoneDisplay": "Michigan (US)",
+    "standard_utc_offset": "-05:00",
+    "utc_offset": "-04:00",
+    "notes": "DST active (-04:00, March-November), maps to America/Detroit"
+  },
+  {
+    "timeZoneKey": "Pacific/Midway",
+    "timeZoneDisplay": "Midway (Pacific)",
+    "standard_utc_offset": "-11:00",
+    "utc_offset": "-11:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Europe/Minsk",
+    "timeZoneDisplay": "Minsk (Europe)",
+    "standard_utc_offset": "+03:00",
+    "utc_offset": "+03:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Miquelon",
+    "timeZoneDisplay": "Miquelon (America)",
+    "standard_utc_offset": "-03:00",
+    "utc_offset": "-02:00",
+    "notes": "DST active (-02:00, March-November)"
+  },
+  {
+    "timeZoneKey": "Africa/Mogadishu",
+    "timeZoneDisplay": "Mogadishu (Africa)",
+    "standard_utc_offset": "+03:00",
+    "utc_offset": "+03:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Europe/Monaco",
+    "timeZoneDisplay": "Monaco (Europe)",
+    "standard_utc_offset": "+01:00",
+    "utc_offset": "+02:00",
+    "notes": "DST active (+02:00, March-October)"
+  },
+  {
+    "timeZoneKey": "America/Moncton",
+    "timeZoneDisplay": "Moncton (America)",
+    "standard_utc_offset": "-04:00",
+    "utc_offset": "-03:00",
+    "notes": "DST active (-03:00, March-November)"
+  },
+  {
+    "timeZoneKey": "Africa/Monrovia",
+    "timeZoneDisplay": "Monrovia (Africa)",
+    "standard_utc_offset": "+00:00",
+    "utc_offset": "+00:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Monterrey",
+    "timeZoneDisplay": "Monterrey (America)",
+    "standard_utc_offset": "-06:00",
+    "utc_offset": "-06:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Montevideo",
+    "timeZoneDisplay": "Montevideo (America)",
+    "standard_utc_offset": "-03:00",
+    "utc_offset": "-03:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Kentucky/Monticello",
+    "timeZoneDisplay": "Monticello (America/Kentucky)",
+    "standard_utc_offset": "-05:00",
+    "utc_offset": "-04:00",
+    "notes": "DST active (-04:00, March-November)"
+  },
+  {
+    "timeZoneKey": "America/Montreal",
+    "timeZoneDisplay": "Montreal (America)",
+    "standard_utc_offset": "-05:00",
+    "utc_offset": "-04:00",
+    "notes": "DST active (-04:00, March-November)"
+  },
+  {
+    "timeZoneKey": "America/Montserrat",
+    "timeZoneDisplay": "Montserrat (America)",
+    "standard_utc_offset": "-04:00",
+    "utc_offset": "-04:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Europe/Moscow",
+    "timeZoneDisplay": "Moscow (Europe)",
+    "standard_utc_offset": "+03:00",
+    "utc_offset": "+03:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Canada/Mountain",
+    "timeZoneDisplay": "Mountain (Canada)",
+    "standard_utc_offset": "-07:00",
+    "utc_offset": "-06:00",
+    "notes": "DST active (-06:00, March-November), maps to America/Edmonton"
+  },
+  {
+    "timeZoneKey": "US/Mountain",
+    "timeZoneDisplay": "Mountain (US)",
+    "standard_utc_offset": "-07:00",
+    "utc_offset": "-06:00",
+    "notes": "DST active (-06:00, March-November), maps to America/Denver"
+  },
+  {
+    "timeZoneKey": "MST",
+    "timeZoneDisplay": "MST",
+    "standard_utc_offset": "-07:00",
+    "utc_offset": "-07:00",
+    "notes": "No DST, maps to America/Phoenix"
+  },
+  {
+    "timeZoneKey": "MST7MDT",
+    "timeZoneDisplay": "MST7MDT",
+    "standard_utc_offset": "-07:00",
+    "utc_offset": "-06:00",
+    "notes": "DST active (-06:00, March-November), maps to America/Denver"
+  },
+  {
+    "timeZoneKey": "Asia/Muscat",
+    "timeZoneDisplay": "Muscat (Asia)",
+    "standard_utc_offset": "+04:00",
+    "utc_offset": "+04:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Africa/Nairobi",
+    "timeZoneDisplay": "Nairobi (Africa)",
+    "standard_utc_offset": "+03:00",
+    "utc_offset": "+03:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Nassau",
+    "timeZoneDisplay": "Nassau (America)",
+    "standard_utc_offset": "-05:00",
+    "utc_offset": "-04:00",
+    "notes": "DST active (-04:00, March-November)"
+  },
+  {
+    "timeZoneKey": "Pacific/Nauru",
+    "timeZoneDisplay": "Nauru (Pacific)",
+    "standard_utc_offset": "+12:00",
+    "utc_offset": "+12:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Navajo",
+    "timeZoneDisplay": "Navajo",
+    "standard_utc_offset": "-07:00",
+    "utc_offset": "-06:00",
+    "notes": "DST active (-06:00, March-November), maps to America/Denver"
+  },
+  {
+    "timeZoneKey": "Africa/Ndjamena",
+    "timeZoneDisplay": "Ndjamena (Africa)",
+    "standard_utc_offset": "+01:00",
+    "utc_offset": "+01:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/North_Dakota/New_Salem",
+    "timeZoneDisplay": "New Salem (America/North Dakota)",
+    "standard_utc_offset": "-06:00",
+    "utc_offset": "-05:00",
+    "notes": "DST active (-05:00, March-November)"
+  },
+  {
+    "timeZoneKey": "America/New_York",
+    "timeZoneDisplay": "New York (America)",
+    "standard_utc_offset": "-05:00",
+    "utc_offset": "-04:00",
+    "notes": "DST active (-04:00, March-November)"
+  },
+  {
+    "timeZoneKey": "Canada/Newfoundland",
+    "timeZoneDisplay": "Newfoundland (Canada)",
+    "standard_utc_offset": "-03:30",
+    "utc_offset": "-02:30",
+    "notes": "DST active (-02:30, March-November)"
+  },
+  {
+    "timeZoneKey": "Africa/Niamey",
+    "timeZoneDisplay": "Niamey (Africa)",
+    "standard_utc_offset": "+01:00",
+    "utc_offset": "+01:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Asia/Nicosia",
+    "timeZoneDisplay": "Nicosia (Asia)",
+    "standard_utc_offset": "+02:00",
+    "utc_offset": "+03:00",
+    "notes": "DST active (+03:00, March-October), alias for Europe/Nicosia"
+  },
+  {
+    "timeZoneKey": "Europe/Nicosia",
+    "timeZoneDisplay": "Nicosia (Europe)",
+    "standard_utc_offset": "+02:00",
+    "utc_offset": "+03:00",
+    "notes": "DST active (+03:00, March-October)"
+  },
+  {
+    "timeZoneKey": "America/Nipigon",
+    "timeZoneDisplay": "Nipigon (America)",
+    "standard_utc_offset": "-05:00",
+    "utc_offset": "-04:00",
+    "notes": "DST active (-04:00, March-November)"
+  },
+  {
+    "timeZoneKey": "Pacific/Niue",
+    "timeZoneDisplay": "Niue (Pacific)",
+    "standard_utc_offset": "-11:00",
+    "utc_offset": "-11:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Nome",
+    "timeZoneDisplay": "Nome (America)",
+    "standard_utc_offset": "-09:00",
+    "utc_offset": "-08:00",
+    "notes": "DST active (-08:00, March-November)"
+  },
+  {
+    "timeZoneKey": "Pacific/Norfolk",
+    "timeZoneDisplay": "Norfolk (Pacific)",
+    "standard_utc_offset": "+11:00",
+    "utc_offset": "+11:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Noronha",
+    "timeZoneDisplay": "Noronha (America)",
+    "standard_utc_offset": "-02:00",
+    "utc_offset": "-02:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Australia/North",
+    "timeZoneDisplay": "North (Australia)",
+    "standard_utc_offset": "+09:30",
+    "utc_offset": "+09:30",
+    "notes": "No DST, maps to Australia/Darwin"
+  },
+  {
+    "timeZoneKey": "Africa/Nouakchott",
+    "timeZoneDisplay": "Nouakchott (Africa)",
+    "standard_utc_offset": "+00:00",
+    "utc_offset": "+00:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Pacific/Noumea",
+    "timeZoneDisplay": "Noumea (Pacific)",
+    "standard_utc_offset": "+11:00",
+    "utc_offset": "+11:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Asia/Novokuznetsk",
+    "timeZoneDisplay": "Novokuznetsk (Asia)",
+    "standard_utc_offset": "+07:00",
+    "utc_offset": "+07:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Asia/Novosibirsk",
+    "timeZoneDisplay": "Novosibirsk (Asia)",
+    "standard_utc_offset": "+07:00",
+    "utc_offset": "+07:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Australia/NSW",
+    "timeZoneDisplay": "NSW (Australia)",
+    "standard_utc_offset": "+10:00",
+    "utc_offset": "+10:00",
+    "notes": "DST may apply (+11:00, typically October-April), maps to Australia/Sydney"
+  },
+  {
+    "timeZoneKey": "America/Nuuk",
+    "timeZoneDisplay": "Nuuk (America)",
+    "standard_utc_offset": "-02:00",
+    "utc_offset": "-01:00",
+    "notes": "DST active (-01:00, March-October)"
+  },
+  {
+    "timeZoneKey": "NZ",
+    "timeZoneDisplay": "NZ",
+    "standard_utc_offset": "+12:00",
+    "utc_offset": "+12:00",
+    "notes": "DST may apply (+13:00, typically September-April), maps to Pacific/Auckland"
+  },
+  {
+    "timeZoneKey": "NZ-CHAT",
+    "timeZoneDisplay": "NZ-CHAT",
+    "standard_utc_offset": "+12:45",
+    "utc_offset": "+12:45",
+    "notes": "DST may apply (+13:45, typically September-April), maps to Pacific/Chatham"
+  },
+  {
+    "timeZoneKey": "America/Ojinaga",
+    "timeZoneDisplay": "Ojinaga (America)",
+    "standard_utc_offset": "-06:00",
+    "utc_offset": "-05:00",
+    "notes": "DST active (-05:00, March-November)"
+  },
+  {
+    "timeZoneKey": "Asia/Omsk",
+    "timeZoneDisplay": "Omsk (Asia)",
+    "standard_utc_offset": "+06:00",
+    "utc_offset": "+06:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Asia/Oral",
+    "timeZoneDisplay": "Oral (Asia)",
+    "standard_utc_offset": "+05:00",
+    "utc_offset": "+05:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Europe/Oslo",
+    "timeZoneDisplay": "Oslo (Europe)",
+    "standard_utc_offset": "+01:00",
+    "utc_offset": "+02:00",
+    "notes": "DST active (+02:00, March-October)"
+  },
+  {
+    "timeZoneKey": "Africa/Ouagadougou",
+    "timeZoneDisplay": "Ouagadougou (Africa)",
+    "standard_utc_offset": "+00:00",
+    "utc_offset": "+00:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Canada/Pacific",
+    "timeZoneDisplay": "Pacific (Canada)",
+    "standard_utc_offset": "-08:00",
+    "utc_offset": "-07:00",
+    "notes": "DST active (-07:00, March-November), maps to America/Vancouver"
+  },
+  {
+    "timeZoneKey": "US/Pacific",
+    "timeZoneDisplay": "Pacific (US)",
+    "standard_utc_offset": "-08:00",
+    "utc_offset": "-07:00",
+    "notes": "DST active (-07:00, March-November), maps to America/Los_Angeles"
+  },
+  {
+    "timeZoneKey": "Pacific/Pago_Pago",
+    "timeZoneDisplay": "Pago Pago (Pacific)",
+    "standard_utc_offset": "-11:00",
+    "utc_offset": "-11:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Pacific/Palau",
+    "timeZoneDisplay": "Palau (Pacific)",
+    "standard_utc_offset": "+09:00",
+    "utc_offset": "+09:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Antarctica/Palmer",
+    "timeZoneDisplay": "Palmer (Antarctica)",
+    "standard_utc_offset": "-03:00",
+    "utc_offset": "-03:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Panama",
+    "timeZoneDisplay": "Panama (America)",
+    "standard_utc_offset": "-05:00",
+    "utc_offset": "-05:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Pangnirtung",
+    "timeZoneDisplay": "Pangnirtung (America)",
+    "standard_utc_offset": "-05:00",
+    "utc_offset": "-04:00",
+    "notes": "DST active (-04:00, March-November)"
+  },
+  {
+    "timeZoneKey": "America/Paramaribo",
+    "timeZoneDisplay": "Paramaribo (America)",
+    "standard_utc_offset": "-03:00",
+    "utc_offset": "-03:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Europe/Paris",
+    "timeZoneDisplay": "Paris (Europe)",
+    "standard_utc_offset": "+01:00",
+    "utc_offset": "+02:00",
+    "notes": "DST active (+02:00, March-October)"
+  },
+  {
+    "timeZoneKey": "Australia/Perth",
+    "timeZoneDisplay": "Perth (Australia)",
+    "standard_utc_offset": "+08:00",
+    "utc_offset": "+08:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Indiana/Petersburg",
+    "timeZoneDisplay": "Petersburg (America/Indiana)",
+    "standard_utc_offset": "-05:00",
+    "utc_offset": "-04:00",
+    "notes": "DST active (-04:00, March-November)"
+  },
+  {
+    "timeZoneKey": "Asia/Phnom_Penh",
+    "timeZoneDisplay": "Phnom Penh (Asia)",
+    "standard_utc_offset": "+07:00",
+    "utc_offset": "+07:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Phoenix",
+    "timeZoneDisplay": "Phoenix (America)",
+    "standard_utc_offset": "-07:00",
+    "utc_offset": "-07:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Pacific/Pitcairn",
+    "timeZoneDisplay": "Pitcairn (Pacific)",
+    "standard_utc_offset": "-08:00",
+    "utc_offset": "-08:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Europe/Podgorica",
+    "timeZoneDisplay": "Podgorica (Europe)",
+    "standard_utc_offset": "+01:00",
+    "utc_offset": "+02:00",
+    "notes": "DST active (+02:00, March-October)"
+  },
+  {
+    "timeZoneKey": "Pacific/Pohnpei",
+    "timeZoneDisplay": "Pohnpei (Pacific)",
+    "standard_utc_offset": "+11:00",
+    "utc_offset": "+11:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Poland",
+    "timeZoneDisplay": "Poland",
+    "standard_utc_offset": "+01:00",
+    "utc_offset": "+02:00",
+    "notes": "DST active (+02:00, March-October), maps to Europe/Warsaw"
+  },
+  {
+    "timeZoneKey": "Pacific/Ponape",
+    "timeZoneDisplay": "Ponape (Pacific)",
+    "standard_utc_offset": "+11:00",
+    "utc_offset": "+11:00",
+    "notes": "No DST, alias for Pacific/Pohnpei"
+  },
+  {
+    "timeZoneKey": "Asia/Pontianak",
+    "timeZoneDisplay": "Pontianak (Asia)",
+    "standard_utc_offset": "+07:00",
+    "utc_offset": "+07:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Pacific/Port_Moresby",
+    "timeZoneDisplay": "Port Moresby (Pacific)",
+    "standard_utc_offset": "+10:00",
+    "utc_offset": "+10:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Port_of_Spain",
+    "timeZoneDisplay": "Port of Spain (America)",
+    "standard_utc_offset": "-04:00",
+    "utc_offset": "-04:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Port-au-Prince",
+    "timeZoneDisplay": "Port-au-Prince (America)",
+    "standard_utc_offset": "-05:00",
+    "utc_offset": "-04:00",
+    "notes": "DST active (-04:00, March-November)"
+  },
+  {
+    "timeZoneKey": "America/Porto_Acre",
+    "timeZoneDisplay": "Porto Acre (America)",
+    "standard_utc_offset": "-05:00",
+    "utc_offset": "-05:00",
+    "notes": "No DST, alias for America/Rio_Branco"
+  },
+  {
+    "timeZoneKey": "America/Porto_Velho",
+    "timeZoneDisplay": "Porto Velho (America)",
+    "standard_utc_offset": "-04:00",
+    "utc_offset": "-04:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Africa/Porto-Novo",
+    "timeZoneDisplay": "Porto-Novo (Africa)",
+    "standard_utc_offset": "+01:00",
+    "utc_offset": "+01:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Portugal",
+    "timeZoneDisplay": "Portugal",
+    "standard_utc_offset": "+00:00",
+    "utc_offset": "+01:00",
+    "notes": "DST active (+01:00, March-October), maps to Europe/Lisbon"
+  },
+  {
+    "timeZoneKey": "Europe/Prague",
+    "timeZoneDisplay": "Prague (Europe)",
+    "standard_utc_offset": "+01:00",
+    "utc_offset": "+02:00",
+    "notes": "DST active (+02:00, March-October)"
+  },
+  {
+    "timeZoneKey": "PRC",
+    "timeZoneDisplay": "PRC",
+    "standard_utc_offset": "+08:00",
+    "utc_offset": "+08:00",
+    "notes": "No DST, maps to Asia/Shanghai"
+  },
+  {
+    "timeZoneKey": "PST8PDT",
+    "timeZoneDisplay": "PST8PDT",
+    "standard_utc_offset": "-08:00",
+    "utc_offset": "-07:00",
+    "notes": "DST active (-07:00, March-November), maps to America/Los_Angeles"
+  },
+  {
+    "timeZoneKey": "America/Puerto_Rico",
+    "timeZoneDisplay": "Puerto Rico (America)",
+    "standard_utc_offset": "-04:00",
+    "utc_offset": "-04:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Punta_Arenas",
+    "timeZoneDisplay": "Punta Arenas (America)",
+    "standard_utc_offset": "-03:00",
+    "utc_offset": "-03:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Asia/Pyongyang",
+    "timeZoneDisplay": "Pyongyang (Asia)",
+    "standard_utc_offset": "+09:00",
+    "utc_offset": "+09:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Asia/Qatar",
+    "timeZoneDisplay": "Qatar (Asia)",
+    "standard_utc_offset": "+03:00",
+    "utc_offset": "+03:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Asia/Qostanay",
+    "timeZoneDisplay": "Qostanay (Asia)",
+    "standard_utc_offset": "+05:00",
+    "utc_offset": "+05:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Australia/Queensland",
+    "timeZoneDisplay": "Queensland (Australia)",
+    "standard_utc_offset": "+10:00",
+    "utc_offset": "+10:00",
+    "notes": "No DST, maps to Australia/Brisbane"
+  },
+  {
+    "timeZoneKey": "Asia/Qyzylorda",
+    "timeZoneDisplay": "Qyzylorda (Asia)",
+    "standard_utc_offset": "+05:00",
+    "utc_offset": "+05:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Rainy_River",
+    "timeZoneDisplay": "Rainy River (America)",
+    "standard_utc_offset": "-06:00",
+    "utc_offset": "-05:00",
+    "notes": "DST active (-05:00, March-November)"
+  },
+  {
+    "timeZoneKey": "Asia/Rangoon",
+    "timeZoneDisplay": "Rangoon (Asia)",
+    "standard_utc_offset": "+06:30",
+    "utc_offset": "+06:30",
+    "notes": "No DST, alias for Asia/Yangon"
+  },
+  {
+    "timeZoneKey": "America/Rankin_Inlet",
+    "timeZoneDisplay": "Rankin Inlet (America)",
+    "standard_utc_offset": "-06:00",
+    "utc_offset": "-05:00",
+    "notes": "DST active (-05:00, March-November)"
+  },
+  {
+    "timeZoneKey": "Pacific/Rarotonga",
+    "timeZoneDisplay": "Rarotonga (Pacific)",
+    "standard_utc_offset": "-10:00",
+    "utc_offset": "-10:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Recife",
+    "timeZoneDisplay": "Recife (America)",
+    "standard_utc_offset": "-03:00",
+    "utc_offset": "-03:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Regina",
+    "timeZoneDisplay": "Regina (America)",
+    "standard_utc_offset": "-06:00",
+    "utc_offset": "-06:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Resolute",
+    "timeZoneDisplay": "Resolute (America)",
+    "standard_utc_offset": "-06:00",
+    "utc_offset": "-05:00",
+    "notes": "DST active (-05:00, March-November)"
+  },
+  {
+    "timeZoneKey": "Indian/Reunion",
+    "timeZoneDisplay": "Reunion (Indian)",
+    "standard_utc_offset": "+04:00",
+    "utc_offset": "+04:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Atlantic/Reykjavik",
+    "timeZoneDisplay": "Reykjavik (Atlantic)",
+    "standard_utc_offset": "+00:00",
+    "utc_offset": "+00:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Europe/Riga",
+    "timeZoneDisplay": "Riga (Europe)",
+    "standard_utc_offset": "+02:00",
+    "utc_offset": "+03:00",
+    "notes": "DST active (+03:00, March-October)"
+  },
+  {
+    "timeZoneKey": "America/Rio_Branco",
+    "timeZoneDisplay": "Rio Branco (America)",
+    "standard_utc_offset": "-05:00",
+    "utc_offset": "-05:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Argentina/Rio_Gallegos",
+    "timeZoneDisplay": "Rio Gallegos (America/Argentina)",
+    "standard_utc_offset": "-03:00",
+    "utc_offset": "-03:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Asia/Riyadh",
+    "timeZoneDisplay": "Riyadh (Asia)",
+    "standard_utc_offset": "+03:00",
+    "utc_offset": "+03:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "ROC",
+    "timeZoneDisplay": "ROC",
+    "standard_utc_offset": "+08:00",
+    "utc_offset": "+08:00",
+    "notes": "No DST, maps to Asia/Taipei"
+  },
+  {
+    "timeZoneKey": "ROK",
+    "timeZoneDisplay": "ROK",
+    "standard_utc_offset": "+09:00",
+    "utc_offset": "+09:00",
+    "notes": "No DST, maps to Asia/Seoul"
+  },
+  {
+    "timeZoneKey": "Europe/Rome",
+    "timeZoneDisplay": "Rome (Europe)",
+    "standard_utc_offset": "+01:00",
+    "utc_offset": "+02:00",
+    "notes": "DST active (+02:00, March-October)"
+  },
+  {
+    "timeZoneKey": "America/Rosario",
+    "timeZoneDisplay": "Rosario (America)",
+    "standard_utc_offset": "-03:00",
+    "utc_offset": "-03:00",
+    "notes": "No DST, alias for America/Cordoba"
+  },
+  {
+    "timeZoneKey": "Antarctica/Rothera",
+    "timeZoneDisplay": "Rothera (Antarctica)",
+    "standard_utc_offset": "-03:00",
+    "utc_offset": "-03:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Asia/Saigon",
+    "timeZoneDisplay": "Saigon (Asia)",
+    "standard_utc_offset": "+07:00",
+    "utc_offset": "+07:00",
+    "notes": "No DST, alias for Asia/Ho_Chi_Minh"
+  },
+  {
+    "timeZoneKey": "Pacific/Saipan",
+    "timeZoneDisplay": "Saipan (Pacific)",
+    "standard_utc_offset": "+10:00",
+    "utc_offset": "+10:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Asia/Sakhalin",
+    "timeZoneDisplay": "Sakhalin (Asia)",
+    "standard_utc_offset": "+11:00",
+    "utc_offset": "+11:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Argentina/Salta",
+    "timeZoneDisplay": "Salta (America/Argentina)",
+    "standard_utc_offset": "-03:00",
+    "utc_offset": "-03:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Europe/Samara",
+    "timeZoneDisplay": "Samara (Europe)",
+    "standard_utc_offset": "+04:00",
+    "utc_offset": "+04:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Asia/Samarkand",
+    "timeZoneDisplay": "Samarkand (Asia)",
+    "standard_utc_offset": "+05:00",
+    "utc_offset": "+05:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Pacific/Samoa",
+    "timeZoneDisplay": "Samoa (Pacific)",
+    "standard_utc_offset": "-11:00",
+    "utc_offset": "-11:00",
+    "notes": "No DST, alias for Pacific/Pago_Pago"
+  },
+  {
+    "timeZoneKey": "US/Samoa",
+    "timeZoneDisplay": "Samoa (US)",
+    "standard_utc_offset": "-11:00",
+    "utc_offset": "-11:00",
+    "notes": "No DST, maps to Pacific/Pago_Pago"
+  },
+  {
+    "timeZoneKey": "America/Argentina/San_Juan",
+    "timeZoneDisplay": "San Juan (America/Argentina)",
+    "standard_utc_offset": "-03:00",
+    "utc_offset": "-03:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Argentina/San_Luis",
+    "timeZoneDisplay": "San Luis (America/Argentina)",
+    "standard_utc_offset": "-03:00",
+    "utc_offset": "-03:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Europe/San_Marino",
+    "timeZoneDisplay": "San Marino (Europe)",
+    "standard_utc_offset": "+01:00",
+    "utc_offset": "+02:00",
+    "notes": "DST active (+02:00, March-October)"
+  },
+  {
+    "timeZoneKey": "America/Santa_Isabel",
+    "timeZoneDisplay": "Santa Isabel (America)",
+    "standard_utc_offset": "-08:00",
+    "utc_offset": "-07:00",
+    "notes": "DST active (-07:00, March-November), alias for America/Tijuana"
+  },
+  {
+    "timeZoneKey": "America/Santarem",
+    "timeZoneDisplay": "Santarem (America)",
+    "standard_utc_offset": "-03:00",
+    "utc_offset": "-03:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Santiago",
+    "timeZoneDisplay": "Santiago (America)",
+    "standard_utc_offset": "-04:00",
+    "utc_offset": "-04:00",
+    "notes": "DST may apply (-03:00, typically September-April)"
+  },
+  {
+    "timeZoneKey": "America/Santo_Domingo",
+    "timeZoneDisplay": "Santo Domingo (America)",
+    "standard_utc_offset": "-04:00",
+    "utc_offset": "-04:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Sao_Paulo",
+    "timeZoneDisplay": "Sao Paulo (America)",
+    "standard_utc_offset": "-03:00",
+    "utc_offset": "-03:00",
+    "notes": "DST may apply (-02:00, typically November-March)"
+  },
+  {
+    "timeZoneKey": "Africa/Sao_Tome",
+    "timeZoneDisplay": "Sao Tome (Africa)",
+    "standard_utc_offset": "+00:00",
+    "utc_offset": "+00:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Europe/Sarajevo",
+    "timeZoneDisplay": "Sarajevo (Europe)",
+    "standard_utc_offset": "+01:00",
+    "utc_offset": "+02:00",
+    "notes": "DST active (+02:00, March-October)"
+  },
+  {
+    "timeZoneKey": "Europe/Saratov",
+    "timeZoneDisplay": "Saratov (Europe)",
+    "standard_utc_offset": "+04:00",
+    "utc_offset": "+04:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Canada/Saskatchewan",
+    "timeZoneDisplay": "Saskatchewan (Canada)",
+    "standard_utc_offset": "-06:00",
+    "utc_offset": "-06:00",
+    "notes": "No DST, maps to America/Regina"
+  },
+  {
+    "timeZoneKey": "America/Scoresbysund",
+    "timeZoneDisplay": "Scoresbysund (America)",
+    "standard_utc_offset": "-01:00",
+    "utc_offset": "+00:00",
+    "notes": "DST active (+00:00, March-October)"
+  },
+  {
+    "timeZoneKey": "Asia/Seoul",
+    "timeZoneDisplay": "Seoul (Asia)",
+    "standard_utc_offset": "+09:00",
+    "utc_offset": "+09:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Asia/Shanghai",
+    "timeZoneDisplay": "Shanghai (Asia)",
+    "standard_utc_offset": "+08:00",
+    "utc_offset": "+08:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Shiprock",
+    "timeZoneDisplay": "Shiprock (America)",
+    "standard_utc_offset": "-07:00",
+    "utc_offset": "-06:00",
+    "notes": "DST active (-06:00, March-November), alias for America/Denver"
+  },
+  {
+    "timeZoneKey": "Europe/Simferopol",
+    "timeZoneDisplay": "Simferopol (Europe)",
+    "standard_utc_offset": "+03:00",
+    "utc_offset": "+03:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Singapore",
+    "timeZoneDisplay": "Singapore",
+    "standard_utc_offset": "+08:00",
+    "utc_offset": "+08:00",
+    "notes": "No DST, maps to Asia/Singapore"
+  },
+  {
+    "timeZoneKey": "Asia/Singapore",
+    "timeZoneDisplay": "Singapore (Asia)",
+    "standard_utc_offset": "+08:00",
+    "utc_offset": "+08:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Sitka",
+    "timeZoneDisplay": "Sitka (America)",
+    "standard_utc_offset": "-09:00",
+    "utc_offset": "-08:00",
+    "notes": "DST active (-08:00, March-November)"
+  },
+  {
+    "timeZoneKey": "Europe/Skopje",
+    "timeZoneDisplay": "Skopje (Europe)",
+    "standard_utc_offset": "+01:00",
+    "utc_offset": "+02:00",
+    "notes": "DST active (+02:00, March-October)"
+  },
+  {
+    "timeZoneKey": "Europe/Sofia",
+    "timeZoneDisplay": "Sofia (Europe)",
+    "standard_utc_offset": "+02:00",
+    "utc_offset": "+03:00",
+    "notes": "DST active (+03:00, March-October)"
+  },
+  {
+    "timeZoneKey": "Australia/South",
+    "timeZoneDisplay": "South (Australia)",
+    "standard_utc_offset": "+09:30",
+    "utc_offset": "+09:30",
+    "notes": "DST may apply (+10:30, typically October-April), maps to Australia/Adelaide"
+  },
+  {
+    "timeZoneKey": "Atlantic/South_Georgia",
+    "timeZoneDisplay": "South Georgia (Atlantic)",
+    "standard_utc_offset": "-02:00",
+    "utc_offset": "-02:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Antarctica/South_Pole",
+    "timeZoneDisplay": "South Pole (Antarctica)",
+    "standard_utc_offset": "+12:00",
+    "utc_offset": "+12:00",
+    "notes": "DST may apply (+13:00, typically September-April), maps to Pacific/Auckland"
+  },
+  {
+    "timeZoneKey": "Asia/Srednekolymsk",
+    "timeZoneDisplay": "Srednekolymsk (Asia)",
+    "standard_utc_offset": "+11:00",
+    "utc_offset": "+11:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/St_Barthelemy",
+    "timeZoneDisplay": "St Barthelemy (America)",
+    "standard_utc_offset": "-04:00",
+    "utc_offset": "-04:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Atlantic/St_Helena",
+    "timeZoneDisplay": "St Helena (Atlantic)",
+    "standard_utc_offset": "+00:00",
+    "utc_offset": "+00:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/St_Johns",
+    "timeZoneDisplay": "St Johns (America)",
+    "standard_utc_offset": "-03:30",
+    "utc_offset": "-02:30",
+    "notes": "DST active (-02:30, March-November)"
+  },
+  {
+    "timeZoneKey": "America/St_Kitts",
+    "timeZoneDisplay": "St Kitts (America)",
+    "standard_utc_offset": "-04:00",
+    "utc_offset": "-04:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/St_Lucia",
+    "timeZoneDisplay": "St Lucia (America)",
+    "standard_utc_offset": "-04:00",
+    "utc_offset": "-04:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/St_Thomas",
+    "timeZoneDisplay": "St Thomas (America)",
+    "standard_utc_offset": "-04:00",
+    "utc_offset": "-04:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/St_Vincent",
+    "timeZoneDisplay": "St Vincent (America)",
+    "standard_utc_offset": "-04:00",
+    "utc_offset": "-04:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Atlantic/Stanley",
+    "timeZoneDisplay": "Stanley (Atlantic)",
+    "standard_utc_offset": "-03:00",
+    "utc_offset": "-03:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Europe/Stockholm",
+    "timeZoneDisplay": "Stockholm (Europe)",
+    "standard_utc_offset": "+01:00",
+    "utc_offset": "+02:00",
+    "notes": "DST active (+02:00, March-October)"
+  },
+  {
+    "timeZoneKey": "America/Swift_Current",
+    "timeZoneDisplay": "Swift Current (America)",
+    "standard_utc_offset": "-06:00",
+    "utc_offset": "-06:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Australia/Sydney",
+    "timeZoneDisplay": "Sydney (Australia)",
+    "standard_utc_offset": "+10:00",
+    "utc_offset": "+10:00",
+    "notes": "DST may apply (+11:00, typically October-April)"
+  },
+  {
+    "timeZoneKey": "Antarctica/Syowa",
+    "timeZoneDisplay": "Syowa (Antarctica)",
+    "standard_utc_offset": "+03:00",
+    "utc_offset": "+03:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Pacific/Tahiti",
+    "timeZoneDisplay": "Tahiti (Pacific)",
+    "standard_utc_offset": "-10:00",
+    "utc_offset": "-10:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Asia/Taipei",
+    "timeZoneDisplay": "Taipei (Asia)",
+    "standard_utc_offset": "+08:00",
+    "utc_offset": "+08:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Europe/Tallinn",
+    "timeZoneDisplay": "Tallinn (Europe)",
+    "standard_utc_offset": "+02:00",
+    "utc_offset": "+03:00",
+    "notes": "DST active (+03:00, March-October)"
+  },
+  {
+    "timeZoneKey": "Pacific/Tarawa",
+    "timeZoneDisplay": "Tarawa (Pacific)",
+    "standard_utc_offset": "+12:00",
+    "utc_offset": "+12:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Asia/Tashkent",
+    "timeZoneDisplay": "Tashkent (Asia)",
+    "standard_utc_offset": "+05:00",
+    "utc_offset": "+05:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Australia/Tasmania",
+    "timeZoneDisplay": "Tasmania (Australia)",
+    "standard_utc_offset": "+10:00",
+    "utc_offset": "+10:00",
+    "notes": "DST may apply (+11:00, typically October-April), maps to Australia/Hobart"
+  },
+  {
+    "timeZoneKey": "Asia/Tbilisi",
+    "timeZoneDisplay": "Tbilisi (Asia)",
+    "standard_utc_offset": "+04:00",
+    "utc_offset": "+04:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Tegucigalpa",
+    "timeZoneDisplay": "Tegucigalpa (America)",
+    "standard_utc_offset": "-06:00",
+    "utc_offset": "-06:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Asia/Tehran",
+    "timeZoneDisplay": "Tehran (Asia)",
+    "standard_utc_offset": "+03:30",
+    "utc_offset": "+04:30",
+    "notes": "DST active (+04:30, March-September)"
+  },
+  {
+    "timeZoneKey": "Asia/Tel_Aviv",
+    "timeZoneDisplay": "Tel Aviv (Asia)",
+    "standard_utc_offset": "+02:00",
+    "utc_offset": "+03:00",
+    "notes": "DST active (+03:00, March-October), alias for Asia/Jerusalem"
+  },
+  {
+    "timeZoneKey": "America/Indiana/Tell_City",
+    "timeZoneDisplay": "Tell City (America/Indiana)",
+    "standard_utc_offset": "-06:00",
+    "utc_offset": "-05:00",
+    "notes": "DST active (-05:00, March-November)"
+  },
+  {
+    "timeZoneKey": "Asia/Thimbu",
+    "timeZoneDisplay": "Thimbu (Asia)",
+    "standard_utc_offset": "+06:00",
+    "utc_offset": "+06:00",
+    "notes": "No DST, alias for Asia/Thimphu"
+  },
+  {
+    "timeZoneKey": "Asia/Thimphu",
+    "timeZoneDisplay": "Thimphu (Asia)",
+    "standard_utc_offset": "+06:00",
+    "utc_offset": "+06:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Thule",
+    "timeZoneDisplay": "Thule (America)",
+    "standard_utc_offset": "-04:00",
+    "utc_offset": "-03:00",
+    "notes": "DST active (-03:00, March-November)"
+  },
+  {
+    "timeZoneKey": "America/Thunder_Bay",
+    "timeZoneDisplay": "Thunder Bay (America)",
+    "standard_utc_offset": "-05:00",
+    "utc_offset": "-04:00",
+    "notes": "DST active (-04:00, March-November)"
+  },
+  {
+    "timeZoneKey": "America/Tijuana",
+    "timeZoneDisplay": "Tijuana (America)",
+    "standard_utc_offset": "-08:00",
+    "utc_offset": "-07:00",
+    "notes": "DST active (-07:00, March-November)"
+  },
+  {
+    "timeZoneKey": "Africa/Timbuktu",
+    "timeZoneDisplay": "Timbuktu (Africa)",
+    "standard_utc_offset": "+00:00",
+    "utc_offset": "+00:00",
+    "notes": "No DST, alias for Africa/Bamako"
+  },
+  {
+    "timeZoneKey": "Europe/Tirane",
+    "timeZoneDisplay": "Tirane (Europe)",
+    "standard_utc_offset": "+01:00",
+    "utc_offset": "+02:00",
+    "notes": "DST active (+02:00, March-October)"
+  },
+  {
+    "timeZoneKey": "Europe/Tiraspol",
+    "timeZoneDisplay": "Tiraspol (Europe)",
+    "standard_utc_offset": "+02:00",
+    "utc_offset": "+03:00",
+    "notes": "DST active (+03:00, March-October), alias for Europe/Chisinau"
+  },
+  {
+    "timeZoneKey": "Asia/Tokyo",
+    "timeZoneDisplay": "Tokyo (Asia)",
+    "standard_utc_offset": "+09:00",
+    "utc_offset": "+09:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Asia/Tomsk",
+    "timeZoneDisplay": "Tomsk (Asia)",
+    "standard_utc_offset": "+07:00",
+    "utc_offset": "+07:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Pacific/Tongatapu",
+    "timeZoneDisplay": "Tongatapu (Pacific)",
+    "standard_utc_offset": "+13:00",
+    "utc_offset": "+13:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Toronto",
+    "timeZoneDisplay": "Toronto (America)",
+    "standard_utc_offset": "-05:00",
+    "utc_offset": "-04:00",
+    "notes": "DST active (-04:00, March-November)"
+  },
+  {
+    "timeZoneKey": "America/Tortola",
+    "timeZoneDisplay": "Tortola (America)",
+    "standard_utc_offset": "-04:00",
+    "utc_offset": "-04:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Africa/Tripoli",
+    "timeZoneDisplay": "Tripoli (Africa)",
+    "standard_utc_offset": "+02:00",
+    "utc_offset": "+02:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Antarctica/Troll",
+    "timeZoneDisplay": "Troll (Antarctica)",
+    "standard_utc_offset": "+00:00",
+    "utc_offset": "+02:00",
+    "notes": "DST active (+02:00, March-October)"
+  },
+  {
+    "timeZoneKey": "Pacific/Truk",
+    "timeZoneDisplay": "Truk (Pacific)",
+    "standard_utc_offset": "+10:00",
+    "utc_offset": "+10:00",
+    "notes": "No DST, alias for Pacific/Chuuk"
+  },
+  {
+    "timeZoneKey": "America/Argentina/Tucuman",
+    "timeZoneDisplay": "Tucuman (America/Argentina)",
+    "standard_utc_offset": "-03:00",
+    "utc_offset": "-03:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Africa/Tunis",
+    "timeZoneDisplay": "Tunis (Africa)",
+    "standard_utc_offset": "+01:00",
+    "utc_offset": "+01:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Turkey",
+    "timeZoneDisplay": "Turkey",
+    "standard_utc_offset": "+03:00",
+    "utc_offset": "+03:00",
+    "notes": "No DST, maps to Europe/Istanbul"
+  },
+  {
+    "timeZoneKey": "UCT",
+    "timeZoneDisplay": "UCT",
+    "standard_utc_offset": "+00:00",
+    "utc_offset": "+00:00",
+    "notes": "No DST, maps to Etc/UTC"
+  },
+  {
+    "timeZoneKey": "Etc/UCT",
+    "timeZoneDisplay": "UCT (Etc)",
+    "standard_utc_offset": "+00:00",
+    "utc_offset": "+00:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Asia/Ujung_Pandang",
+    "timeZoneDisplay": "Ujung Pandang (Asia)",
+    "standard_utc_offset": "+08:00",
+    "utc_offset": "+08:00",
+    "notes": "No DST, alias for Asia/Makassar"
+  },
+  {
+    "timeZoneKey": "Asia/Ulaanbaatar",
+    "timeZoneDisplay": "Ulaanbaatar (Asia)",
+    "standard_utc_offset": "+08:00",
+    "utc_offset": "+08:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Asia/Ulan_Bator",
+    "timeZoneDisplay": "Ulan Bator (Asia)",
+    "standard_utc_offset": "+08:00",
+    "utc_offset": "+08:00",
+    "notes": "No DST, alias for Asia/Ulaanbaatar"
+  },
+  {
+    "timeZoneKey": "Europe/Ulyanovsk",
+    "timeZoneDisplay": "Ulyanovsk (Europe)",
+    "standard_utc_offset": "+04:00",
+    "utc_offset": "+04:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Universal",
+    "timeZoneDisplay": "Universal",
+    "standard_utc_offset": "+00:00",
+    "utc_offset": "+00:00",
+    "notes": "No DST, maps to Etc/UTC"
+  },
+  {
+    "timeZoneKey": "Etc/Universal",
+    "timeZoneDisplay": "Universal (Etc)",
+    "standard_utc_offset": "+00:00",
+    "utc_offset": "+00:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Asia/Urumqi",
+    "timeZoneDisplay": "Urumqi (Asia)",
+    "standard_utc_offset": "+06:00",
+    "utc_offset": "+06:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Argentina/Ushuaia",
+    "timeZoneDisplay": "Ushuaia (America/Argentina)",
+    "standard_utc_offset": "-03:00",
+    "utc_offset": "-03:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Asia/Ust-Nera",
+    "timeZoneDisplay": "Ust-Nera (Asia)",
+    "standard_utc_offset": "+10:00",
+    "utc_offset": "+10:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "UTC",
+    "timeZoneDisplay": "UTC",
+    "standard_utc_offset": "+00:00",
+    "utc_offset": "+00:00",
+    "notes": "No DST, maps to Etc/UTC"
+  },
+  {
+    "timeZoneKey": "Etc/UTC",
+    "timeZoneDisplay": "UTC (Etc)",
+    "standard_utc_offset": "+00:00",
+    "utc_offset": "+00:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Europe/Uzhgorod",
+    "timeZoneDisplay": "Uzhgorod (Europe)",
+    "standard_utc_offset": "+02:00",
+    "utc_offset": "+03:00",
+    "notes": "DST active (+03:00, March-October)"
+  },
+  {
+    "timeZoneKey": "Europe/Vaduz",
+    "timeZoneDisplay": "Vaduz (Europe)",
+    "standard_utc_offset": "+01:00",
+    "utc_offset": "+02:00",
+    "notes": "DST active (+02:00, March-October)"
+  },
+  {
+    "timeZoneKey": "America/Vancouver",
+    "timeZoneDisplay": "Vancouver (America)",
+    "standard_utc_offset": "-08:00",
+    "utc_offset": "-07:00",
+    "notes": "DST active (-07:00, March-November)"
+  },
+  {
+    "timeZoneKey": "Europe/Vatican",
+    "timeZoneDisplay": "Vatican (Europe)",
+    "standard_utc_offset": "+01:00",
+    "utc_offset": "+02:00",
+    "notes": "DST active (+02:00, March-October)"
+  },
+  {
+    "timeZoneKey": "America/Indiana/Vevay",
+    "timeZoneDisplay": "Vevay (America/Indiana)",
+    "standard_utc_offset": "-05:00",
+    "utc_offset": "-04:00",
+    "notes": "DST active (-04:00, March-November)"
+  },
+  {
+    "timeZoneKey": "Australia/Victoria",
+    "timeZoneDisplay": "Victoria (Australia)",
+    "standard_utc_offset": "+10:00",
+    "utc_offset": "+10:00",
+    "notes": "DST may apply (+11:00, typically October-April), maps to Australia/Melbourne"
+  },
+  {
+    "timeZoneKey": "Europe/Vienna",
+    "timeZoneDisplay": "Vienna (Europe)",
+    "standard_utc_offset": "+01:00",
+    "utc_offset": "+02:00",
+    "notes": "DST active (+02:00, March-October)"
+  },
+  {
+    "timeZoneKey": "Asia/Vientiane",
+    "timeZoneDisplay": "Vientiane (Asia)",
+    "standard_utc_offset": "+07:00",
+    "utc_offset": "+07:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Europe/Vilnius",
+    "timeZoneDisplay": "Vilnius (Europe)",
+    "standard_utc_offset": "+02:00",
+    "utc_offset": "+03:00",
+    "notes": "DST active (+03:00, March-October)"
+  },
+  {
+    "timeZoneKey": "America/Indiana/Vincennes",
+    "timeZoneDisplay": "Vincennes (America/Indiana)",
+    "standard_utc_offset": "-05:00",
+    "utc_offset": "-04:00",
+    "notes": "DST active (-04:00, March-November)"
+  },
+  {
+    "timeZoneKey": "America/Virgin",
+    "timeZoneDisplay": "Virgin (America)",
+    "standard_utc_offset": "-04:00",
+    "utc_offset": "-04:00",
+    "notes": "No DST, maps to America/St_Thomas"
+  },
+  {
+    "timeZoneKey": "Asia/Vladivostok",
+    "timeZoneDisplay": "Vladivostok (Asia)",
+    "standard_utc_offset": "+10:00",
+    "utc_offset": "+10:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Europe/Volgograd",
+    "timeZoneDisplay": "Volgograd (Europe)",
+    "standard_utc_offset": "+03:00",
+    "utc_offset": "+03:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Antarctica/Vostok",
+    "timeZoneDisplay": "Vostok (Antarctica)",
+    "standard_utc_offset": "+06:00",
+    "utc_offset": "+06:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "W-SU",
+    "timeZoneDisplay": "W-SU",
+    "standard_utc_offset": "+03:00",
+    "utc_offset": "+03:00",
+    "notes": "No DST, maps to Europe/Moscow"
+  },
+  {
+    "timeZoneKey": "Pacific/Wake",
+    "timeZoneDisplay": "Wake (Pacific)",
+    "standard_utc_offset": "+12:00",
+    "utc_offset": "+12:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Pacific/Wallis",
+    "timeZoneDisplay": "Wallis (Pacific)",
+    "standard_utc_offset": "+12:00",
+    "utc_offset": "+12:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Europe/Warsaw",
+    "timeZoneDisplay": "Warsaw (Europe)",
+    "standard_utc_offset": "+01:00",
+    "utc_offset": "+02:00",
+    "notes": "DST active (+02:00, March-October)"
+  },
+  {
+    "timeZoneKey": "Australia/West",
+    "timeZoneDisplay": "West (Australia)",
+    "standard_utc_offset": "+08:00",
+    "utc_offset": "+08:00",
+    "notes": "No DST, maps to Australia/Perth"
+  },
+  {
+    "timeZoneKey": "Brazil/West",
+    "timeZoneDisplay": "West (Brazil)",
+    "standard_utc_offset": "-04:00",
+    "utc_offset": "-04:00",
+    "notes": "No DST, maps to America/Manaus"
+  },
+  {
+    "timeZoneKey": "WET",
+    "timeZoneDisplay": "WET",
+    "standard_utc_offset": "+00:00",
+    "utc_offset": "+01:00",
+    "notes": "DST active (+01:00, March-October), maps to Europe/Lisbon"
+  },
+  {
+    "timeZoneKey": "America/Whitehorse",
+    "timeZoneDisplay": "Whitehorse (America)",
+    "standard_utc_offset": "-07:00",
+    "utc_offset": "-07:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Indiana/Winamac",
+    "timeZoneDisplay": "Winamac (America/Indiana)",
+    "standard_utc_offset": "-05:00",
+    "utc_offset": "-04:00",
+    "notes": "DST active (-04:00, March-November)"
+  },
+  {
+    "timeZoneKey": "Africa/Windhoek",
+    "timeZoneDisplay": "Windhoek (Africa)",
+    "standard_utc_offset": "+02:00",
+    "utc_offset": "+02:00",
+    "notes": "DST may apply (+01:00, typically April-September)"
+  },
+  {
+    "timeZoneKey": "America/Winnipeg",
+    "timeZoneDisplay": "Winnipeg (America)",
+    "standard_utc_offset": "-06:00",
+    "utc_offset": "-05:00",
+    "notes": "DST active (-05:00, March-November)"
+  },
+  {
+    "timeZoneKey": "America/Yakutat",
+    "timeZoneDisplay": "Yakutat (America)",
+    "standard_utc_offset": "-09:00",
+    "utc_offset": "-08:00",
+    "notes": "DST active (-08:00, March-November)"
+  },
+  {
+    "timeZoneKey": "Asia/Yakutsk",
+    "timeZoneDisplay": "Yakutsk (Asia)",
+    "standard_utc_offset": "+09:00",
+    "utc_offset": "+09:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Australia/Yancowinna",
+    "timeZoneDisplay": "Yancowinna (Australia)",
+    "standard_utc_offset": "+09:30",
+    "utc_offset": "+09:30",
+    "notes": "DST may apply (+10:30, typically October-April), maps to Australia/Broken_Hill"
+  },
+  {
+    "timeZoneKey": "Asia/Yangon",
+    "timeZoneDisplay": "Yangon (Asia)",
+    "standard_utc_offset": "+06:30",
+    "utc_offset": "+06:30",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Pacific/Yap",
+    "timeZoneDisplay": "Yap (Pacific)",
+    "standard_utc_offset": "+10:00",
+    "utc_offset": "+10:00",
+    "notes": "No DST, alias for Pacific/Chuuk"
+  },
+  {
+    "timeZoneKey": "Asia/Yekaterinburg",
+    "timeZoneDisplay": "Yekaterinburg (Asia)",
+    "standard_utc_offset": "+05:00",
+    "utc_offset": "+05:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "America/Yellowknife",
+    "timeZoneDisplay": "Yellowknife (America)",
+    "standard_utc_offset": "-07:00",
+    "utc_offset": "-06:00",
+    "notes": "DST active (-06:00, March-November)"
+  },
+  {
+    "timeZoneKey": "Asia/Yerevan",
+    "timeZoneDisplay": "Yerevan (Asia)",
+    "standard_utc_offset": "+04:00",
+    "utc_offset": "+04:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Canada/Yukon",
+    "timeZoneDisplay": "Yukon (Canada)",
+    "standard_utc_offset": "-07:00",
+    "utc_offset": "-07:00",
+    "notes": "No DST, maps to America/Whitehorse"
+  },
+  {
+    "timeZoneKey": "Europe/Zagreb",
+    "timeZoneDisplay": "Zagreb (Europe)",
+    "standard_utc_offset": "+01:00",
+    "utc_offset": "+02:00",
+    "notes": "DST active (+02:00, March-October)"
+  },
+  {
+    "timeZoneKey": "Europe/Zaporozhye",
+    "timeZoneDisplay": "Zaporozhye (Europe)",
+    "standard_utc_offset": "+02:00",
+    "utc_offset": "+03:00",
+    "notes": "DST active (+03:00, March-October)"
+  },
+  {
+    "timeZoneKey": "Zulu",
+    "timeZoneDisplay": "Zulu",
+    "standard_utc_offset": "+00:00",
+    "utc_offset": "+00:00",
+    "notes": "No DST, maps to Etc/UTC"
+  },
+  {
+    "timeZoneKey": "Etc/Zulu",
+    "timeZoneDisplay": "Zulu (Etc)",
+    "standard_utc_offset": "+00:00",
+    "utc_offset": "+00:00",
+    "notes": "No DST"
+  },
+  {
+    "timeZoneKey": "Europe/Zurich",
+    "timeZoneDisplay": "Zurich (Europe)",
+    "standard_utc_offset": "+01:00",
+    "utc_offset": "+02:00",
+    "notes": "DST active (+02:00, March-October)"
+  }
+]
