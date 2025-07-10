@@ -1,11 +1,11 @@
 {
-  "name": "Ring Plan by Zetelco",
-  "short_name": "RingPlan",
+  "name": "Dial Plan Editor by Zetalco",
+  "short_name": "DialPlanEditor",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#0175C2",
   "theme_color": "#0175C2",
-  "description": "A new Flutter project.",
+  "description": "Design interactive call flows visually using draggable nodes in this powerful Flutter-based dial plan editor.",
   "orientation": "portrait-primary",
   "prefer_related_applications": false,
   "icons": [
