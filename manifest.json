@@ -1,6 +1,6 @@
 {
-  "name": "Dial Plan Editor by Zetalco",
-  "short_name": "DialPlanEditor",
+  "name": "Dial Plan Editor",
+  "short_name": "DialPlan",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#0175C2",
