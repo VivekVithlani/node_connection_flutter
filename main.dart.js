@@ -53094,7 +53094,7 @@ var $async$$0=A.u(function(a,b){if(a===1)return A.v(b,r)
 while(true)switch(s){case 0:if($.a7==null)A.b5f()
 $.a7.toString
 s=3
-return A.r($.Pf().z_(".env"),$async$$0)
+return A.r($.Pf().z_("assets/.env"),$async$$0)
 case 3:if(!A.aK4().gGF().R("accountid")){$.an().a4O()
 s=1
 break}p=A.b9F(new A.Tk(null),A.bhR())
