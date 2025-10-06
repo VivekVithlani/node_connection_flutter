@@ -1,34 +1,38 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-    <meta name="description" content="Edit and share https://ringplan.app dialplans." />
+<head>
+    <!--
+      If you are serving your web app in a path other than the root, change the
+      href value below to reflect the base path you are serving from.
 
-    <!-- 🧠 Dynamic base path (auto-detects repo/project folder) -->
-    <script>
-      (function() {
-        const path = window.location.pathname.split('/')[1];
-        const base = document.createElement('base');
-        base.href = path ? '/' + path + '/' : '/';
-        document.head.appendChild(base);
-      })();
-    </script>
+      The path provided below has to start and end with a slash "/" in order for
+      it to work correctly.
+
+      For more details:
+      * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+      This is a placeholder for base href that will be replaced by the value of
+      the `--base-href` argument provided to `flutter build`.
+    -->
+    <base href="/node_connection_flutter/">
+
+    <meta charset="UTF-8">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta content="Edit and share https://ringplan.app dialplans." name="description">
 
     <!-- iOS meta tags & icons -->
-    <meta name="mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-    <meta name="apple-mobile-web-app-title" content="Visual Dialplan Editor" />
-    <link rel="apple-touch-icon" href="icons/Icon-192.png" />
+    <meta content="yes" name="mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="chillwireless_flutter" name="apple-mobile-web-app-title">
+    <link href="icons/Icon-192.png" rel="apple-touch-icon">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="favicon.png" />
+    <link href="favicon.png" rel="icon" type="image/png"/>
 
     <title>Visual Dialplan Editor</title>
-    <link rel="manifest" href="manifest.json" />
-  </head>
-
-  <body>
-    <script async src="flutter_bootstrap.js"></script>
-  </body>
+    <link href="manifest.json" rel="manifest">
+</head>
+<body>
+<script async src="flutter_bootstrap.js"></script>
+</body>
 </html>
