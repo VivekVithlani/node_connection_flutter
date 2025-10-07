@@ -1,0 +1,64 @@
+{
+  "endpoints": {
+    "auth": {
+      "token": "https://ringplan.app.n8n.cloud/webhook/internal/kazoo/flutter/getAuthToken"
+    },
+    "api": {
+      "readRecords": "https://ringplan.app.n8n.cloud/webhook/kazoo/flutter/api/readRecord/cache",
+      "updateRecords": "https://ringplan.app.n8n.cloud/webhook/kazoo/flutter/api/update-record",
+      "createRecord": "https://ringplan.app.n8n.cloud/webhook/kazoo/flutter/api/createRecord"
+    },
+    "external": {
+      "aiCallflow": "https://api.evozard.com/webhook/ai-callflow",
+      "deleteWorkflow": "https://api.ringplan.co:8443/v2/accounts",
+      "bubbleUpdate": "https://ringplan-v4.bubbleapps.io/version-test/api/1.1/wf/catch_number_flow"
+    },
+    "chillwireless": {
+      "workflowRead": "https://api.chillwireless.com/v1/call/flow/read",
+      "workflowUpdate": "https://api.chillwireless.com/v1/call/flow/update",
+      "webhookUpdate": "https://api.chillwireless.com/v1/call/flow/webhook",
+      "templateRead": "https://api.chillwireless.com/v1/call/template/read",
+      "templateUpdate": "https://api.chillwireless.com/v1/call/template/update",
+      "templateList": "https://api.chillwireless.com/v1/call/all_template_list"
+    }
+  },
+  "resources": {
+    "callflows": "accounts/{accountId}/callflows",
+    "phoneNumbers": {
+      "base": "accounts/{accountId}/phone_numbers",
+      "filtered": "accounts/{accountId}/phone_numbers?filter_state=%5B%22in_service%22%2C%22port_in%22%5D"
+    },
+    "menus": "accounts/{accountId}/menus",
+    "timeOfDay": {
+      "rules": "accounts/{accountId}/temporal_rules?paginate=false",
+      "sets": "accounts/{accountId}/temporal_rules_sets?paginate=false",
+      "edit": "accounts/{accountId}/temporal_rules"
+    },
+    "conferences": "accounts/{accountId}/conferences",
+    "voicemail": "accounts/{accountId}/vmboxes",
+    "users": "accounts/{accountId}/users",
+    "media": "accounts/{accountId}/media",
+    "devices": "accounts/{accountId}/devices",
+    "ringGroups": "accounts/{accountId}/groups",
+    "faxBoxes": "accounts/{accountId}/faxboxes",
+    "directory": "accounts/{accountId}/directories",
+    "branchVariable": "accounts/{accountId}/schemas/callflows.branch_variable"
+  },
+  "queryParams": {
+    "phoneNumbers": {
+      "filtered": "filter_state=%5B%22in_service%22%2C%22port_in%22%5D"
+    },
+    "timeOfDay": {
+      "paginate": "paginate=false"
+    }
+  },
+  "templates": {
+    "getTemplateFile": "https://api.chillwireless.com/v1/call/template/read?template_name="
+  },
+  "environment": {
+    "name": "production",
+    "env": "prod",
+    "debug": false,
+    "logging": false
+  }
+}
