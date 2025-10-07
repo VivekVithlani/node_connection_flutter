@@ -57,7 +57,7 @@
   },
   "environment": {
     "name": "production",
-    "env": "dev"
+    "env": "dev",
     "debug": false,
     "logging": false
   }
