@@ -16,19 +16,17 @@
       "bubbleUpdate": "https://ringplan-v4.bubbleapps.io/version-test/api/1.1/wf/catch_number_flow"
     },
     "vdeWorkFlowServices": {
-      "workflowRead": "https://api.chillwireless.com/v1/call/flow/read",
-      "workflowUpdate": "https://api.chillwireless.com/v1/call/flow/update",
-      "webhookUpdate": "https://api.chillwireless.com/v1/call/flow/webhook",
-      "templateRead": "https://api.chillwireless.com/v1/call/template/read",
-      "templateUpdate": "https://api.chillwireless.com/v1/call/template/update",
-      "templateList": "https://api.chillwireless.com/v1/call/all_template_list"
+      "workflowRead": "https://ringplan.app.n8n.cloud/webhook/call/flow/read/elastic",
+      "workflowUpdate": "https://ringplan.app.n8n.cloud/webhook/call/flow/update/elastic",
+      "templateUpdate": "https://ringplan.app.n8n.cloud/webhook/call/template/update/elastic",
+      "templateList": "https://ringplan.app.n8n.cloud/webhook/call/all_template_list/elastic"
     }
   },
   "resources": {
     "media": "accounts/{accountId}/media"
   },
   "templates": {
-    "getTemplateFile": "https://api.chillwireless.com/v1/call/template/read?template_name="
+    "getTemplateFile": "https://ringplan.app.n8n.cloud/webhook/call/template/read/elastic?template_name="
   },
   "environment": {
     "name": "production",
