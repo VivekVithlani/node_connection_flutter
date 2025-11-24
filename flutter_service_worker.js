@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"version.json": "3bedf89da5b0ee2ec5f6a4a730233906",
+const RESOURCES = {"version.json": "44a3972a0fc0b2a1de3c55949f8dd967",
 "icons/Icon-maskable-512.png": "c4e987b7f2503f8e534a126244dee229",
 "icons/Icon-512.png": "71203d5350390cbeadbb1973f72c6b0b",
 "icons/Icon-maskable-192.png": "eabdffdc8240eef486cde8165030805a",
@@ -51,8 +51,8 @@ const RESOURCES = {"version.json": "3bedf89da5b0ee2ec5f6a4a730233906",
 "canvaskit/canvaskit.js": "140ccb7d34d0a55065fbd422b843add6",
 "canvaskit/skwasm_heavy.wasm": "8034ad26ba2485dab2fd49bdd786837b",
 "canvaskit/skwasm.wasm": "264db41426307cfc7fa44b95a7772109",
-"flutter_bootstrap.js": "a117cc5fa0046369b569676f3624fba1",
-"main.dart.js": "cb342a6bfa18bb017035360ddb1eb5d2"};
+"flutter_bootstrap.js": "707698a01238ca23f13dc3ec62a2439f",
+"main.dart.js": "bdc1e44a3331b904b564f7c8b89cc811"};
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = ["main.dart.js",
