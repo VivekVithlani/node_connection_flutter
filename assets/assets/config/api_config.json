@@ -6,6 +6,13 @@
     "baseUrl": {
       "url": "https://ringplan.app.n8n.cloud/webhook/kazoo/flutter/api"
     },
+    "callLog": {
+      "list": "https://ringplan.app.n8n.cloud/webhook/flutter/get-call-logs",
+      "detail": "https://ringplan.app.n8n.cloud/webhook/flutter/get-call-logs/details"
+    },
+    "webhookFixedUrl": {
+      "url": "https://ringplan.app.n8n.cloud/webhook/webhook-tracking/all"
+    },
     "media": {
       "dev": "https://api.ringplan.co:8443/v2",
       "prod": "https://api.ringplan.app:8443/v2"
