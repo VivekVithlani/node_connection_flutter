@@ -26,7 +26,8 @@
       "workflowRead": "https://ringplan.app.n8n.cloud/webhook/call/flow/read/elastic",
       "workflowUpdate": "https://ringplan.app.n8n.cloud/webhook/call/flow/update/elastic",
       "templateUpdate": "https://ringplan.app.n8n.cloud/webhook/call/template/update/elastic",
-      "templateList": "https://ringplan.app.n8n.cloud/webhook/call/all_template_list/elastic"
+      "templateList": "https://ringplan.app.n8n.cloud/webhook/call/all_template_list/elastic",
+      "callFlowList": "https://ringplan.app.n8n.cloud/webhook/elastic/flutter/api/callflows"
     }
   },
   "resources": {
