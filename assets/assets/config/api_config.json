@@ -6,6 +6,9 @@
     "baseUrl": {
       "url": "https://ringplan.app.n8n.cloud/webhook/kazoo/flutter/api"
     },
+    "uploadMedia": {
+      "url": "https://ringplan.app.n8n.cloud/webhook/kazoo/flutter/api/update-record-base64"
+    },
     "callLog": {
       "list": "https://ringplan.app.n8n.cloud/webhook/flutter/get-call-logs",
       "detail": "https://ringplan.app.n8n.cloud/webhook/flutter/get-call-logs/details"
