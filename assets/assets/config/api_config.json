@@ -1,5 +1,9 @@
 {
   "endpoints": {
+    "verifyAndAuthenticationUrl": {
+      "loginAuthentication": "https://ringplan.app.n8n.cloud/webhook/login/authenticate",
+      "verifyToken": "https://ringplan.app.n8n.cloud/webhook/login/verify-token"
+    },
     "auth": {
       "token": "https://ringplan.app.n8n.cloud/webhook/internal/kazoo/flutter/getAuthToken"
     },
