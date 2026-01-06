@@ -13,7 +13,7 @@ const RESOURCES = {"version.json": "aa3ca25a41054cb10433a66c3dd1ac38",
 "assets/AssetManifest.bin.json": "3ce556e82905334608bbf6f5b460df85",
 "assets/fonts/ArialNova-Bold.ttf": "b09176da62b954310d18bd1bb196e801",
 "assets/fonts/ArialNova.ttf": "88adf4d62d427db9ae8c4259faf4a907",
-"assets/fonts/MaterialIcons-Regular.otf": "52418c220287a15f14b5c285b3bb3f3c",
+"assets/fonts/MaterialIcons-Regular.otf": "a6ada992ba7670c02dd68c38b5335da5",
 "assets/packages/flutter_inappwebview/assets/t_rex_runner/t-rex.html": "16911fcc170c8af1c5457940bd0bf055",
 "assets/packages/flutter_inappwebview/assets/t_rex_runner/t-rex.css": "5a8d0222407e388155d7d1395a75d5b9",
 "assets/packages/html_editor_enhanced/assets/summernote-lite.min.js": "4fe75f9b35f43da141d60d6a697db1c1",
@@ -68,8 +68,8 @@ const RESOURCES = {"version.json": "aa3ca25a41054cb10433a66c3dd1ac38",
 "canvaskit/canvaskit.js": "140ccb7d34d0a55065fbd422b843add6",
 "canvaskit/skwasm_heavy.wasm": "8034ad26ba2485dab2fd49bdd786837b",
 "canvaskit/skwasm.wasm": "264db41426307cfc7fa44b95a7772109",
-"flutter_bootstrap.js": "1d7e76b150a3666ced216104805cf3e2",
-"main.dart.js": "64e515991bc511ee6014eb787c9da3c2"};
+"flutter_bootstrap.js": "c82e80affdc3e58f4cfcbcdb2d84c9b5",
+"main.dart.js": "1a43c3cdd31fa0d353ba6497cc6d4c14"};
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = ["main.dart.js",
