@@ -15,7 +15,8 @@
     },
     "callLog": {
       "list": "https://ringplan.app.n8n.cloud/webhook/flutter/get-call-logs",
-      "detail": "https://ringplan.app.n8n.cloud/webhook/flutter/get-call-logs/details"
+      "detail": "https://ringplan.app.n8n.cloud/webhook/flutter/get-call-logs/details",
+      "cdr": "https://ringplan.app.n8n.cloud/webhook/kazoo/flutter/api/cdr"
     },
     "webhookFixedUrl": {
       "url": "https://ringplan.app.n8n.cloud/webhook/webhook-tracking/all"
